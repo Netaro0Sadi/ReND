@@ -98,7 +98,6 @@
         "Who is Renato Dias Machado?",
         "Quem é ReD?",
         "O que é ReD?",
-        "Quem é Renato Dias Machado?",
         "Who exactly is ReD?",
         "Me fale sobre ReD.",
         "Who is ReD exactly?",
@@ -155,7 +154,6 @@
     ],
     "What is machine learning?": [
         "Explain machine learning.",
-        "What is ML?",
         "Define machine learning.",
         "O que é aprendizado de máquina?",
         "O que é machine learning?",
@@ -1258,9 +1256,6 @@
         "O que significa the diameter of our galaxy, the milky way?"
     ],
     "What does RAM stand for?": [
-        "What does RAM mean?",
-        "What is the meaning of RAM?",
-        "O que significa RAM?",
         "O que RAM quer dizer?",
         "Qual o significado de RAM?",
         "What is RAM?"
@@ -1274,9 +1269,6 @@
         "What is URL?"
     ],
     "What does HTTP stand for?": [
-        "What does HTTP mean?",
-        "What is the meaning of HTTP?",
-        "O que significa HTTP?",
         "O que HTTP quer dizer?",
         "Qual o significado de HTTP?",
         "What is HTTP?"
@@ -1290,9 +1282,6 @@
         "Explique quem é the author of Harry Potter."
     ],
     "What does SQL stand for?": [
-        "What does SQL mean?",
-        "What is the meaning of SQL?",
-        "O que significa SQL?",
         "O que SQL quer dizer?",
         "Qual o significado de SQL?",
         "What is SQL?"
@@ -1306,7 +1295,6 @@
         "Explique quem foi the first president of the United States."
     ],
     "What does API stand for?": [
-        "What does API mean?",
         "What is the meaning of API?",
         "O que significa API?",
         "O que API quer dizer?",
@@ -1314,9 +1302,6 @@
         "What is API?"
     ],
     "What does DNS stand for?": [
-        "What does DNS mean?",
-        "What is the meaning of DNS?",
-        "O que significa DNS?",
         "O que DNS quer dizer?",
         "Qual o significado de DNS?",
         "What is DNS?"
@@ -1354,25 +1339,16 @@
         "What is GPU?"
     ],
     "What does SSD stand for?": [
-        "What does SSD mean?",
-        "What is the meaning of SSD?",
-        "O que significa SSD?",
         "O que SSD quer dizer?",
         "Qual o significado de SSD?",
         "What is SSD?"
     ],
     "What does HDD stand for?": [
-        "What does HDD mean?",
-        "What is the meaning of HDD?",
-        "O que significa HDD?",
         "O que HDD quer dizer?",
         "Qual o significado de HDD?",
         "What is HDD?"
     ],
     "What does BIOS stand for?": [
-        "What does BIOS mean?",
-        "What is the meaning of BIOS?",
-        "O que significa BIOS?",
         "O que BIOS quer dizer?",
         "Qual o significado de BIOS?",
         "What is BIOS?"
@@ -2430,13 +2406,11 @@
         "Me fale sobre coffee made from."
     ],
     "What is the Olympic Games?": [
-        "Explain the Olympic Games.",
         "Define the Olympic Games.",
         "What does the Olympic Games mean?",
         "O que é the Olympic Games?",
         "Explique the Olympic Games.",
         "O que significa the Olympic Games?",
-        "Tell me about the Olympic Games.",
         "What is the meaning of the Olympic Games?",
         "Defina the Olympic Games.",
         "Me fale sobre the Olympic Games."
@@ -3302,10 +3276,8 @@
         "Me fale sobre Harry Potter."
     ],
     "Who is Harry Potter?": [
-        "Tell me about Harry Potter.",
         "Who exactly is Harry Potter?",
         "Quem é Harry Potter?",
-        "Me fale sobre Harry Potter.",
         "Who is Harry Potter exactly?",
         "Explique quem é Harry Potter."
     ],
@@ -3948,10 +3920,8 @@
         "O que é Scooby-Doo?",
         "Explique Scooby-Doo.",
         "O que significa Scooby-Doo?",
-        "Tell me about Scooby-Doo.",
         "What is the meaning of Scooby-Doo?",
-        "Defina Scooby-Doo.",
-        "Me fale sobre Scooby-Doo."
+        "Defina Scooby-Doo."
     ],
     "Who is Scooby-Doo?": [
         "Tell me about Scooby-Doo.",
@@ -3974,10 +3944,8 @@
         "Me fale sobre SpongeBob SquarePants."
     ],
     "Who is SpongeBob SquarePants?": [
-        "Tell me about SpongeBob SquarePants.",
         "Who exactly is SpongeBob SquarePants?",
         "Quem é SpongeBob SquarePants?",
-        "Me fale sobre SpongeBob SquarePants.",
         "Who is SpongeBob SquarePants exactly?",
         "Explique quem é SpongeBob SquarePants."
     ],
@@ -6010,9 +5978,7 @@
         "Me fale sobre bodybuilding."
     ],
     "Who was Alan Turing?": [
-        "Tell me about Alan Turing.",
         "Quem foi Alan Turing?",
-        "Me fale sobre Alan Turing.",
         "Who exactly was Alan Turing?",
         "Who was Alan Turing exactly?",
         "Explique quem foi Alan Turing."
@@ -6022,8 +5988,7 @@
         "What is the meaning of AI?",
         "O que significa AI?",
         "O que AI quer dizer?",
-        "Qual o significado de AI?",
-        "What is AI?"
+        "Qual o significado de AI?"
     ],
     "What does ML stand for?": [
         "What does ML mean?",
@@ -8839,11 +8804,11 @@
         "O que significa a block in volleyball?"
     ],
     "What are the Olympic Games?": [
-        "Explain the Olympic Games.",
+        "What is the Olympics?",
         "Tell me about the Olympic Games.",
-        "O que são the Olympic Games?",
-        "Explique the Olympic Games.",
-        "Me fale sobre the Olympic Games."
+        "Explain the Olympic Games.",
+        "O que são os Jogos Olímpicos?",
+        "Me fale sobre os Jogos Olímpicos."
     ],
     "What is the Tour de France?": [
         "Explain the Tour de France.",
