@@ -1,0 +1,4367 @@
+{
+    "Who created you?": [
+        "Who is your creator?",
+        "What is your creator's name?",
+        "Who made you?",
+        "Who built you?",
+        "Who developed you?",
+        "Quem te criou?",
+        "Quem criou você?",
+        "Qual o nome do seu criador?",
+        "Quem é seu criador?",
+        "Quem fez você?"
+    ],
+    "What does ReND stand for?": [
+        "What does ReND mean?",
+        "What is the meaning of ReND?",
+        "What is ReND short for?",
+        "Explain ReND.",
+        "Explain the name ReND.",
+        "O que ReND quer dizer?",
+        "O que rend quer dizer?",
+        "O que significa ReND?",
+        "O que significa rend?",
+        "Qual o significado de ReND?",
+        "Qual o significado de rend?"
+    ],
+    "What is your name?": [
+        "Who are you?",
+        "What should I call you?",
+        "Tell me your name.",
+        "Qual seu nome?",
+        "Como você se chama?",
+        "Como te chamo?",
+        "Seu nome?",
+        "Quem é você?",
+        "Explain your name.",
+        "Define your name.",
+        "What does your name mean?",
+        "O que é your name?",
+        "Explique your name.",
+        "O que significa your name?"
+    ],
+    "What are you?": [
+        "Are you an AI?",
+        "Are you a robot?",
+        "Are you human?",
+        "Are you biological?",
+        "What kind of being are you?",
+        "Você é uma IA?",
+        "Você é um robô?",
+        "Você é humano?",
+        "Você é um ser biológico?",
+        "Que tipo de ser você é?"
+    ],
+    "What do you do?": [
+        "What is your function?",
+        "What can you do?",
+        "What are you designed to do?",
+        "Qual sua função?",
+        "O que você faz?",
+        "Para que você serve?",
+        "O que você consegue fazer?"
+    ],
+    "What is your goal?": [
+        "What is your objective?",
+        "What is your purpose?",
+        "Why do you exist?",
+        "Qual é seu objetivo?",
+        "Qual é seu propósito?",
+        "Por que você existe?",
+        "Explain your goal.",
+        "Define your goal.",
+        "What does your goal mean?",
+        "O que é your goal?",
+        "Explique your goal.",
+        "O que significa your goal?"
+    ],
+    "Who is ReD?": [
+        "What is ReD?",
+        "Tell me about ReD.",
+        "Who is Renato Dias Machado?",
+        "Quem é ReD?",
+        "O que é ReD?",
+        "Quem é Renato Dias Machado?",
+        "Who exactly is ReD?",
+        "Me fale sobre ReD."
+    ],
+    "What is Python?": [
+        "Explain Python.",
+        "What is Python used for?",
+        "Define Python.",
+        "O que é Python?",
+        "Para que serve Python?",
+        "Explique Python.",
+        "What does Python mean?",
+        "O que significa Python?"
+    ],
+    "What is an API?": [
+        "Explain API.",
+        "What does API mean?",
+        "What is an application programming interface?",
+        "O que é uma API?",
+        "Para que serve uma API?",
+        "Explique API.",
+        "Explain an API.",
+        "Define an API.",
+        "What does an API mean?",
+        "O que é an API?",
+        "Explique an API.",
+        "O que significa an API?"
+    ],
+    "What is artificial intelligence?": [
+        "What is AI?",
+        "Explain artificial intelligence.",
+        "Define AI.",
+        "O que é inteligência artificial?",
+        "O que é IA?",
+        "Explique inteligência artificial.",
+        "Define artificial intelligence.",
+        "What does artificial intelligence mean?",
+        "O que é artificial intelligence?",
+        "Explique artificial intelligence.",
+        "O que significa artificial intelligence?"
+    ],
+    "What is machine learning?": [
+        "Explain machine learning.",
+        "What is ML?",
+        "Define machine learning.",
+        "O que é aprendizado de máquina?",
+        "O que é machine learning?",
+        "Explique machine learning.",
+        "What does machine learning mean?",
+        "O que significa machine learning?"
+    ],
+    "What is JSON?": [
+        "Explain JSON.",
+        "What does JSON mean?",
+        "What is JSON used for?",
+        "O que é JSON?",
+        "O que significa JSON?",
+        "Para que serve JSON?",
+        "Define JSON.",
+        "Explique JSON."
+    ],
+    "What is semantic search?": [
+        "Explain semantic search.",
+        "What does semantic search mean?",
+        "What is meaning-based search?",
+        "O que é busca semântica?",
+        "O que significa busca semântica?",
+        "Explique busca semântica.",
+        "Define semantic search.",
+        "O que é semantic search?",
+        "Explique semantic search.",
+        "O que significa semantic search?"
+    ],
+    "What is an embedding?": [
+        "Explain embeddings.",
+        "What are text embeddings?",
+        "What does embedding mean?",
+        "O que é embedding?",
+        "O que são embeddings?",
+        "Explique embeddings.",
+        "Explain an embedding.",
+        "Define an embedding.",
+        "What does an embedding mean?",
+        "O que é an embedding?",
+        "Explique an embedding.",
+        "O que significa an embedding?"
+    ],
+    "What is a router in software?": [
+        "Explain router in software.",
+        "What does a router do in code?",
+        "What is the function of a router?",
+        "O que é router em software?",
+        "O que o router faz?",
+        "Para que serve o router?"
+    ],
+    "What is an intent detector?": [
+        "Explain intent detector.",
+        "What does intent detector do?",
+        "What is intent detection?",
+        "O que é detector de intenção?",
+        "O que o intent detector faz?",
+        "Para que serve o intent detector?",
+        "Explain an intent detector.",
+        "Define an intent detector.",
+        "What does an intent detector mean?",
+        "O que é an intent detector?",
+        "Explique an intent detector.",
+        "O que significa an intent detector?"
+    ],
+    "What is software architecture?": [
+        "Explain software architecture.",
+        "What does software architecture mean?",
+        "Why is software architecture important?",
+        "O que é arquitetura de software?",
+        "Explique arquitetura de software.",
+        "Para que serve arquitetura de software?",
+        "Define software architecture.",
+        "O que é software architecture?",
+        "Explique software architecture.",
+        "O que significa software architecture?"
+    ],
+    "What is RAM?": [
+        "Explain RAM.",
+        "What does RAM do?",
+        "What is computer memory?",
+        "O que é RAM?",
+        "Para que serve a memória RAM?",
+        "O que a RAM faz?",
+        "Define RAM.",
+        "What does RAM mean?",
+        "Explique RAM.",
+        "O que significa RAM?"
+    ],
+    "What is a GPU?": [
+        "Explain GPU.",
+        "What does a GPU do?",
+        "What is a graphics card?",
+        "O que é GPU?",
+        "Para que serve a GPU?",
+        "O que é placa de vídeo?",
+        "Explain a GPU.",
+        "Define a GPU.",
+        "What does a GPU mean?",
+        "O que é a GPU?",
+        "Explique a GPU.",
+        "O que significa a GPU?"
+    ],
+    "What is a CPU?": [
+        "What is a processor?",
+        "What does the CPU do?",
+        "Explain CPU.",
+        "O que é CPU?",
+        "O que é processador?",
+        "Para que serve a CPU?",
+        "Explain a CPU.",
+        "Define a CPU.",
+        "What does a CPU mean?",
+        "O que é a CPU?",
+        "Explique a CPU.",
+        "O que significa a CPU?"
+    ],
+    "What is a database?": [
+        "Explain database.",
+        "What are databases used for?",
+        "Define database.",
+        "O que é banco de dados?",
+        "Para que serve um banco de dados?",
+        "Explique banco de dados.",
+        "Explain a database.",
+        "Define a database.",
+        "What does a database mean?",
+        "O que é a database?",
+        "Explique a database.",
+        "O que significa a database?"
+    ],
+    "What is Git?": [
+        "Explain Git.",
+        "What is Git used for?",
+        "What does Git do?",
+        "O que é Git?",
+        "Para que serve Git?",
+        "Explique Git.",
+        "Define Git.",
+        "What does Git mean?",
+        "O que significa Git?"
+    ],
+    "What is GitHub?": [
+        "Explain GitHub.",
+        "What is GitHub used for?",
+        "What does GitHub do?",
+        "O que é GitHub?",
+        "Para que serve GitHub?",
+        "Explique GitHub.",
+        "Define GitHub.",
+        "What does GitHub mean?",
+        "O que significa GitHub?"
+    ],
+    "How many planets are in the solar system?": [
+        "How many planets exist in the solar system?",
+        "How many planets do we have?",
+        "How many planets are there?",
+        "Quantos planetas existem?",
+        "Quantos planetas tem o sistema solar?",
+        "Quantos planetas existem no sistema solar?"
+    ],
+    "How many states does Brazil have?": [
+        "How many states are in Brazil?",
+        "How many Brazilian states are there?",
+        "Quantos estados tem o Brasil?",
+        "Quantos estados existem no Brasil?",
+        "O Brasil tem quantos estados?"
+    ],
+    "How many bones are in the human body?": [
+        "How many bones do humans have?",
+        "How many bones does a person have?",
+        "Quantos ossos temos?",
+        "Quantos ossos o corpo humano tem?",
+        "Quantos ossos uma pessoa tem?"
+    ],
+    "What is gravity?": [
+        "Explain gravity.",
+        "What does gravity mean?",
+        "How does gravity work?",
+        "O que é gravidade?",
+        "Explique gravidade.",
+        "Como funciona a gravidade?",
+        "Define gravity.",
+        "O que é gravity?",
+        "Explique gravity.",
+        "O que significa gravity?"
+    ],
+    "Who discovered gravity?": [
+        "Who formulated gravity?",
+        "Who created the theory of gravity?",
+        "Quem descobriu a gravidade?",
+        "Quem formulou a gravidade?",
+        "Quem criou a teoria da gravidade?"
+    ],
+    "Who was the first man to walk on the moon?": [
+        "Who first walked on the moon?",
+        "Who was the first person on the Moon?",
+        "Quem foi o primeiro homem na Lua?",
+        "Quem pisou primeiro na Lua?",
+        "Quem foi a primeira pessoa a andar na Lua?",
+        "Tell me about the first man to walk on the moon.",
+        "Quem foi the first man to walk on the moon?",
+        "Me fale sobre the first man to walk on the moon."
+    ],
+    "What is the Moon?": [
+        "Explain the Moon.",
+        "What is Earth's natural satellite?",
+        "O que é a Lua?",
+        "Explique a Lua.",
+        "O que é o satélite natural da Terra?",
+        "Define the Moon.",
+        "What does the Moon mean?",
+        "O que é the Moon?",
+        "Explique the Moon.",
+        "O que significa the Moon?"
+    ],
+    "What is Mars?": [
+        "Explain Mars.",
+        "What planet is Mars?",
+        "O que é Marte?",
+        "Explique Marte.",
+        "Que planeta é Marte?",
+        "Define Mars.",
+        "What does Mars mean?",
+        "O que é Mars?",
+        "Explique Mars.",
+        "O que significa Mars?"
+    ],
+    "What is Jupiter?": [
+        "Explain Jupiter.",
+        "What planet is Jupiter?",
+        "O que é Júpiter?",
+        "Explique Júpiter.",
+        "Que planeta é Júpiter?",
+        "Define Jupiter.",
+        "What does Jupiter mean?",
+        "O que é Jupiter?",
+        "Explique Jupiter.",
+        "O que significa Jupiter?"
+    ],
+    "What is Earth?": [
+        "Explain Earth.",
+        "What planet is Earth?",
+        "O que é a Terra?",
+        "Explique a Terra.",
+        "Que planeta é a Terra?",
+        "Define Earth.",
+        "What does Earth mean?",
+        "O que é Earth?",
+        "Explique Earth.",
+        "O que significa Earth?"
+    ],
+    "What is the Sun?": [
+        "Explain the Sun.",
+        "What star is closest to Earth?",
+        "O que é o Sol?",
+        "Explique o Sol.",
+        "Qual é a estrela mais próxima da Terra?",
+        "Define the Sun.",
+        "What does the Sun mean?",
+        "O que é the Sun?",
+        "Explique the Sun.",
+        "O que significa the Sun?"
+    ],
+    "What is a galaxy?": [
+        "Explain galaxy.",
+        "What are galaxies?",
+        "O que é uma galáxia?",
+        "Explique galáxia.",
+        "O que são galáxias?",
+        "Explain a galaxy.",
+        "Define a galaxy.",
+        "What does a galaxy mean?",
+        "O que é a galaxy?",
+        "Explique a galaxy.",
+        "O que significa a galaxy?"
+    ],
+    "What is the Milky Way?": [
+        "Explain the Milky Way.",
+        "What galaxy are we in?",
+        "O que é a Via Láctea?",
+        "Explique a Via Láctea.",
+        "Em qual galáxia estamos?",
+        "Define the Milky Way.",
+        "What does the Milky Way mean?",
+        "O que é the Milky Way?",
+        "Explique the Milky Way.",
+        "O que significa the Milky Way?"
+    ],
+    "What is DNA?": [
+        "Explain DNA.",
+        "What does DNA do?",
+        "O que é DNA?",
+        "Explique DNA.",
+        "Para que serve o DNA?",
+        "Define DNA.",
+        "What does DNA mean?",
+        "O que significa DNA?"
+    ],
+    "What is evolution?": [
+        "Explain evolution.",
+        "How does evolution work?",
+        "O que é evolução?",
+        "Explique evolução.",
+        "Como funciona a evolução?",
+        "Define evolution.",
+        "What does evolution mean?",
+        "O que é evolution?",
+        "Explique evolution.",
+        "O que significa evolution?"
+    ],
+    "What is electricity?": [
+        "Explain electricity.",
+        "What is electrical energy?",
+        "O que é eletricidade?",
+        "Explique eletricidade.",
+        "O que é energia elétrica?",
+        "Define electricity.",
+        "What does electricity mean?",
+        "O que é electricity?",
+        "Explique electricity.",
+        "O que significa electricity?"
+    ],
+    "What is energy?": [
+        "Explain energy.",
+        "What does energy mean?",
+        "O que é energia?",
+        "Explique energia.",
+        "O que significa energia?",
+        "Define energy.",
+        "O que é energy?",
+        "Explique energy.",
+        "O que significa energy?"
+    ],
+    "What is programming?": [
+        "Explain programming.",
+        "What does programming mean?",
+        "What is coding?",
+        "O que é programação?",
+        "O que é programar?",
+        "Explique programação.",
+        "Define programming.",
+        "O que é programming?",
+        "Explique programming.",
+        "O que significa programming?"
+    ],
+    "What is software?": [
+        "Explain software.",
+        "What does software mean?",
+        "O que é software?",
+        "Explique software.",
+        "O que significa software?",
+        "Define software."
+    ],
+    "What is hardware?": [
+        "Explain hardware.",
+        "What does hardware mean?",
+        "O que é hardware?",
+        "Explique hardware.",
+        "O que significa hardware?",
+        "Define hardware."
+    ],
+    "What is cybersecurity?": [
+        "Explain cybersecurity.",
+        "What is digital security?",
+        "O que é cibersegurança?",
+        "O que é segurança digital?",
+        "Explique cibersegurança.",
+        "Define cybersecurity.",
+        "What does cybersecurity mean?",
+        "O que é cybersecurity?",
+        "Explique cybersecurity.",
+        "O que significa cybersecurity?"
+    ],
+    "What is encryption?": [
+        "Explain encryption.",
+        "What does encryption mean?",
+        "O que é criptografia?",
+        "Explique criptografia.",
+        "O que significa criptografia?",
+        "Define encryption.",
+        "O que é encryption?",
+        "Explique encryption.",
+        "O que significa encryption?"
+    ],
+    "What is cloud computing?": [
+        "Explain cloud computing.",
+        "What is the cloud?",
+        "O que é computação em nuvem?",
+        "O que é nuvem?",
+        "Explique cloud computing.",
+        "Define cloud computing.",
+        "What does cloud computing mean?",
+        "O que é cloud computing?",
+        "O que significa cloud computing?"
+    ],
+    "Who is Alan Turing?": [
+        "Tell me about Alan Turing.",
+        "Who exactly is Alan Turing?",
+        "Quem é Alan Turing?",
+        "Me fale sobre Alan Turing."
+    ],
+    "What is the binary system?": [
+        "Explain the binary system.",
+        "Define the binary system.",
+        "What does the binary system mean?",
+        "O que é the binary system?",
+        "Explique the binary system.",
+        "O que significa the binary system?"
+    ],
+    "What does HTML stand for?": [
+        "What does HTML mean?",
+        "What is the meaning of HTML?",
+        "O que significa HTML?",
+        "O que HTML quer dizer?",
+        "Qual o significado de HTML?"
+    ],
+    "What is an algorithm?": [
+        "Explain an algorithm.",
+        "Define an algorithm.",
+        "What does an algorithm mean?",
+        "O que é an algorithm?",
+        "Explique an algorithm.",
+        "O que significa an algorithm?"
+    ],
+    "What is a variable?": [
+        "Explain a variable.",
+        "Define a variable.",
+        "What does a variable mean?",
+        "O que é a variable?",
+        "Explique a variable.",
+        "O que significa a variable?"
+    ],
+    "What is a string?": [
+        "Explain a string.",
+        "Define a string.",
+        "What does a string mean?",
+        "O que é a string?",
+        "Explique a string.",
+        "O que significa a string?"
+    ],
+    "What is debugging?": [
+        "Explain debugging.",
+        "Define debugging.",
+        "What does debugging mean?",
+        "O que é debugging?",
+        "Explique debugging.",
+        "O que significa debugging?"
+    ],
+    "What is refactoring?": [
+        "Explain refactoring.",
+        "Define refactoring.",
+        "What does refactoring mean?",
+        "O que é refactoring?",
+        "Explique refactoring.",
+        "O que significa refactoring?"
+    ],
+    "What is a chatbot?": [
+        "Explain a chatbot.",
+        "Define a chatbot.",
+        "What does a chatbot mean?",
+        "O que é a chatbot?",
+        "Explique a chatbot.",
+        "O que significa a chatbot?"
+    ],
+    "What is a file path?": [
+        "Explain a file path.",
+        "Define a file path.",
+        "What does a file path mean?",
+        "O que é a file path?",
+        "Explique a file path.",
+        "O que significa a file path?"
+    ],
+    "What is open source?": [
+        "Explain open source.",
+        "Define open source.",
+        "What does open source mean?",
+        "O que é open source?",
+        "Explique open source.",
+        "O que significa open source?"
+    ],
+    "What is HTTP?": [
+        "Explain HTTP.",
+        "Define HTTP.",
+        "What does HTTP mean?",
+        "O que é HTTP?",
+        "Explique HTTP.",
+        "O que significa HTTP?"
+    ],
+    "What is the internet?": [
+        "Explain the internet.",
+        "Define the internet.",
+        "What does the internet mean?",
+        "O que é the internet?",
+        "Explique the internet.",
+        "O que significa the internet?"
+    ],
+    "What is a server?": [
+        "Explain a server.",
+        "Define a server.",
+        "What does a server mean?",
+        "O que é a server?",
+        "Explique a server.",
+        "O que significa a server?"
+    ],
+    "What is a client?": [
+        "Explain a client.",
+        "Define a client.",
+        "What does a client mean?",
+        "O que é a client?",
+        "Explique a client.",
+        "O que significa a client?"
+    ],
+    "What is an operating system?": [
+        "Explain an operating system.",
+        "Define an operating system.",
+        "What does an operating system mean?",
+        "O que é an operating system?",
+        "Explique an operating system.",
+        "O que significa an operating system?"
+    ],
+    "What is Windows?": [
+        "Explain Windows.",
+        "Define Windows.",
+        "What does Windows mean?",
+        "O que é Windows?",
+        "Explique Windows.",
+        "O que significa Windows?"
+    ],
+    "What is Linux?": [
+        "Explain Linux.",
+        "Define Linux.",
+        "What does Linux mean?",
+        "O que é Linux?",
+        "Explique Linux.",
+        "O que significa Linux?"
+    ],
+    "What is a browser?": [
+        "Explain a browser.",
+        "Define a browser.",
+        "What does a browser mean?",
+        "O que é a browser?",
+        "Explique a browser.",
+        "O que significa a browser?"
+    ],
+    "What is Google?": [
+        "Explain Google.",
+        "Define Google.",
+        "What does Google mean?",
+        "O que é Google?",
+        "Explique Google.",
+        "O que significa Google?"
+    ],
+    "What is Microsoft?": [
+        "Explain Microsoft.",
+        "Define Microsoft.",
+        "What does Microsoft mean?",
+        "O que é Microsoft?",
+        "Explique Microsoft.",
+        "O que significa Microsoft?"
+    ],
+    "What is Steam?": [
+        "Explain Steam.",
+        "Define Steam.",
+        "What does Steam mean?",
+        "O que é Steam?",
+        "Explique Steam.",
+        "O que significa Steam?"
+    ],
+    "What is a video game?": [
+        "Explain a video game.",
+        "Define a video game.",
+        "What does a video game mean?",
+        "O que é a video game?",
+        "Explique a video game.",
+        "O que significa a video game?"
+    ],
+    "What is photosynthesis?": [
+        "Explain photosynthesis.",
+        "Define photosynthesis.",
+        "What does photosynthesis mean?",
+        "O que é photosynthesis?",
+        "Explique photosynthesis.",
+        "O que significa photosynthesis?"
+    ],
+    "What is a cell?": [
+        "Explain a cell.",
+        "Define a cell.",
+        "What does a cell mean?",
+        "O que é a cell?",
+        "Explique a cell.",
+        "O que significa a cell?"
+    ],
+    "What is an atom?": [
+        "Explain an atom.",
+        "Define an atom.",
+        "What does an atom mean?",
+        "O que é an atom?",
+        "Explique an atom.",
+        "O que significa an atom?"
+    ],
+    "What is a molecule?": [
+        "Explain a molecule.",
+        "Define a molecule.",
+        "What does a molecule mean?",
+        "O que é a molecule?",
+        "Explique a molecule.",
+        "O que significa a molecule?"
+    ],
+    "What is chemistry?": [
+        "Explain chemistry.",
+        "Define chemistry.",
+        "What does chemistry mean?",
+        "O que é chemistry?",
+        "Explique chemistry.",
+        "O que significa chemistry?"
+    ],
+    "What is physics?": [
+        "Explain physics.",
+        "Define physics.",
+        "What does physics mean?",
+        "O que é physics?",
+        "Explique physics.",
+        "O que significa physics?"
+    ],
+    "What is biology?": [
+        "Explain biology.",
+        "Define biology.",
+        "What does biology mean?",
+        "O que é biology?",
+        "Explique biology.",
+        "O que significa biology?"
+    ],
+    "What is astronomy?": [
+        "Explain astronomy.",
+        "Define astronomy.",
+        "What does astronomy mean?",
+        "O que é astronomy?",
+        "Explique astronomy.",
+        "O que significa astronomy?"
+    ],
+    "What is a planet?": [
+        "Explain a planet.",
+        "Define a planet.",
+        "What does a planet mean?",
+        "O que é a planet?",
+        "Explique a planet.",
+        "O que significa a planet?"
+    ],
+    "What is Saturn?": [
+        "Explain Saturn.",
+        "Define Saturn.",
+        "What does Saturn mean?",
+        "O que é Saturn?",
+        "Explique Saturn.",
+        "O que significa Saturn?"
+    ],
+    "What is history?": [
+        "Explain history.",
+        "Define history.",
+        "What does history mean?",
+        "O que é history?",
+        "Explique history.",
+        "O que significa history?"
+    ],
+    "Who was Albert Einstein?": [
+        "Tell me about Albert Einstein.",
+        "Quem foi Albert Einstein?",
+        "Me fale sobre Albert Einstein."
+    ],
+    "Who was Leonardo da Vinci?": [
+        "Tell me about Leonardo da Vinci.",
+        "Quem foi Leonardo da Vinci?",
+        "Me fale sobre Leonardo da Vinci."
+    ],
+    "Who was Isaac Newton?": [
+        "Tell me about Isaac Newton.",
+        "Quem foi Isaac Newton?",
+        "Me fale sobre Isaac Newton."
+    ],
+    "What is democracy?": [
+        "Explain democracy.",
+        "Define democracy.",
+        "What does democracy mean?",
+        "O que é democracy?",
+        "Explique democracy.",
+        "O que significa democracy?"
+    ],
+    "What is a country?": [
+        "Explain a country.",
+        "Define a country.",
+        "What does a country mean?",
+        "O que é a country?",
+        "Explique a country.",
+        "O que significa a country?"
+    ],
+    "What is a continent?": [
+        "Explain a continent.",
+        "Define a continent.",
+        "What does a continent mean?",
+        "O que é a continent?",
+        "Explique a continent.",
+        "O que significa a continent?"
+    ],
+    "What is a mountain?": [
+        "Explain a mountain.",
+        "Define a mountain.",
+        "What does a mountain mean?",
+        "O que é a mountain?",
+        "Explique a mountain.",
+        "O que significa a mountain?"
+    ],
+    "What is an ocean?": [
+        "Explain an ocean.",
+        "Define an ocean.",
+        "What does an ocean mean?",
+        "O que é an ocean?",
+        "Explique an ocean.",
+        "O que significa an ocean?"
+    ],
+    "What is a river?": [
+        "Explain a river.",
+        "Define a river.",
+        "What does a river mean?",
+        "O que é a river?",
+        "Explique a river.",
+        "O que significa a river?"
+    ],
+    "What is a password?": [
+        "Explain a password.",
+        "Define a password.",
+        "What does a password mean?",
+        "O que é a password?",
+        "Explique a password.",
+        "O que significa a password?"
+    ],
+    "What is artificial neural network?": [
+        "Explain artificial neural network.",
+        "Define artificial neural network.",
+        "What does artificial neural network mean?",
+        "O que é artificial neural network?",
+        "Explique artificial neural network.",
+        "O que significa artificial neural network?"
+    ],
+    "What is deep learning?": [
+        "Explain deep learning.",
+        "Define deep learning.",
+        "What does deep learning mean?",
+        "O que é deep learning?",
+        "Explique deep learning.",
+        "O que significa deep learning?"
+    ],
+    "What is the diameter of our galaxy, the milky way?": [
+        "What is the size of our galaxy?",
+        "What is the size of the Milky Way?",
+        "What is the diameter of the Milky Way?",
+        "How big is our galaxy?",
+        "How big is the Milky Way?",
+        "Qual o tamanho da galáxia?",
+        "Qual o tamanho da nossa galáxia?",
+        "Qual o tamanho da Via Láctea?",
+        "Qual o diâmetro da nossa galáxia?",
+        "Qual o diâmetro da Via Láctea?"
+    ],
+    "What does RAM stand for?": [
+        "What does RAM mean?",
+        "What is the meaning of RAM?",
+        "O que significa RAM?",
+        "O que RAM quer dizer?",
+        "Qual o significado de RAM?"
+    ],
+    "What does URL stand for?": [
+        "What does URL mean?",
+        "What is the meaning of URL?",
+        "O que significa URL?",
+        "O que URL quer dizer?",
+        "Qual o significado de URL?"
+    ],
+    "What does HTTP stand for?": [
+        "What does HTTP mean?",
+        "What is the meaning of HTTP?",
+        "O que significa HTTP?",
+        "O que HTTP quer dizer?",
+        "Qual o significado de HTTP?"
+    ],
+    "Who is the author of Harry Potter?": [
+        "Tell me about the author of Harry Potter.",
+        "Who exactly is the author of Harry Potter?",
+        "Quem é the author of Harry Potter?",
+        "Me fale sobre the author of Harry Potter."
+    ],
+    "What does SQL stand for?": [
+        "What does SQL mean?",
+        "What is the meaning of SQL?",
+        "O que significa SQL?",
+        "O que SQL quer dizer?",
+        "Qual o significado de SQL?"
+    ],
+    "Who was the first president of the United States?": [
+        "Tell me about the first president of the United States.",
+        "Quem foi the first president of the United States?",
+        "Me fale sobre the first president of the United States."
+    ],
+    "What does API stand for?": [
+        "What does API mean?",
+        "What is the meaning of API?",
+        "O que significa API?",
+        "O que API quer dizer?",
+        "Qual o significado de API?"
+    ],
+    "What does DNS stand for?": [
+        "What does DNS mean?",
+        "What is the meaning of DNS?",
+        "O que significa DNS?",
+        "O que DNS quer dizer?",
+        "Qual o significado de DNS?"
+    ],
+    "What does CSS stand for?": [
+        "What does CSS mean?",
+        "What is the meaning of CSS?",
+        "O que significa CSS?",
+        "O que CSS quer dizer?",
+        "Qual o significado de CSS?"
+    ],
+    "What does IP stand for?": [
+        "What does IP mean?",
+        "What is the meaning of IP?",
+        "O que significa IP?",
+        "O que IP quer dizer?",
+        "Qual o significado de IP?"
+    ],
+    "What does CPU stand for?": [
+        "What does CPU mean?",
+        "What is the meaning of CPU?",
+        "O que significa CPU?",
+        "O que CPU quer dizer?",
+        "Qual o significado de CPU?"
+    ],
+    "What does GPU stand for?": [
+        "What does GPU mean?",
+        "What is the meaning of GPU?",
+        "O que significa GPU?",
+        "O que GPU quer dizer?",
+        "Qual o significado de GPU?"
+    ],
+    "What does SSD stand for?": [
+        "What does SSD mean?",
+        "What is the meaning of SSD?",
+        "O que significa SSD?",
+        "O que SSD quer dizer?",
+        "Qual o significado de SSD?"
+    ],
+    "What does HDD stand for?": [
+        "What does HDD mean?",
+        "What is the meaning of HDD?",
+        "O que significa HDD?",
+        "O que HDD quer dizer?",
+        "Qual o significado de HDD?"
+    ],
+    "What does BIOS stand for?": [
+        "What does BIOS mean?",
+        "What is the meaning of BIOS?",
+        "O que significa BIOS?",
+        "O que BIOS quer dizer?",
+        "Qual o significado de BIOS?"
+    ],
+    "What does OS stand for?": [
+        "What does OS mean?",
+        "What is the meaning of OS?",
+        "O que significa OS?",
+        "O que OS quer dizer?",
+        "Qual o significado de OS?"
+    ],
+    "What does IDE stand for?": [
+        "What does IDE mean?",
+        "What is the meaning of IDE?",
+        "O que significa IDE?",
+        "O que IDE quer dizer?",
+        "Qual o significado de IDE?"
+    ],
+    "What does GUI stand for?": [
+        "What does GUI mean?",
+        "What is the meaning of GUI?",
+        "O que significa GUI?",
+        "O que GUI quer dizer?",
+        "Qual o significado de GUI?"
+    ],
+    "What is an IP address?": [
+        "Explain an IP address.",
+        "Define an IP address.",
+        "What does an IP address mean?",
+        "O que é an IP address?",
+        "Explique an IP address.",
+        "O que significa an IP address?"
+    ],
+    "What is open source software?": [
+        "Explain open source software.",
+        "Define open source software.",
+        "What does open source software mean?",
+        "O que é open source software?",
+        "Explique open source software.",
+        "O que significa open source software?"
+    ],
+    "What is cryptography?": [
+        "Explain cryptography.",
+        "Define cryptography.",
+        "What does cryptography mean?",
+        "O que é cryptography?",
+        "Explique cryptography.",
+        "O que significa cryptography?"
+    ],
+    "What is a black hole?": [
+        "Explain a black hole.",
+        "Define a black hole.",
+        "What does a black hole mean?",
+        "O que é a black hole?",
+        "Explique a black hole.",
+        "O que significa a black hole?"
+    ],
+    "Who was the first emperor of Rome?": [
+        "Tell me about the first emperor of Rome.",
+        "Quem foi the first emperor of Rome?",
+        "Me fale sobre the first emperor of Rome."
+    ],
+    "Who was the first woman to win a Nobel Prize?": [
+        "Tell me about the first woman to win a Nobel Prize.",
+        "Quem foi the first woman to win a Nobel Prize?",
+        "Me fale sobre the first woman to win a Nobel Prize."
+    ],
+    "Who was the leader of the Mongolian Empire?": [
+        "Tell me about the leader of the Mongolian Empire.",
+        "Quem foi the leader of the Mongolian Empire?",
+        "Me fale sobre the leader of the Mongolian Empire."
+    ],
+    "What continent is Egypt in?": [
+        "Em qual continente fica o Egito?",
+        "Egypt is located on which continent.",
+        "Is Egypt in Africa?",
+        "em que continente o Egito fica?"
+    ],
+    "What is the smallest continent?": [
+        "Explain the smallest continent.",
+        "Define the smallest continent.",
+        "What does the smallest continent mean?",
+        "O que é the smallest continent?",
+        "Explique the smallest continent.",
+        "O que significa the smallest continent?"
+    ],
+    "What is the largest continent?": [
+        "Explain the largest continent.",
+        "Define the largest continent.",
+        "What does the largest continent mean?",
+        "O que é the largest continent?",
+        "Explique the largest continent.",
+        "O que significa the largest continent?"
+    ],
+    "Who was Julius Caesar?": [
+        "Tell me about Julius Caesar.",
+        "Quem foi Julius Caesar?",
+        "Me fale sobre Julius Caesar."
+    ],
+    "Who was Napoleon Bonaparte?": [
+        "Tell me about Napoleon Bonaparte.",
+        "Quem foi Napoleon Bonaparte?",
+        "Me fale sobre Napoleon Bonaparte."
+    ],
+    "Who was Christopher Columbus?": [
+        "Tell me about Christopher Columbus.",
+        "Quem foi Christopher Columbus?",
+        "Me fale sobre Christopher Columbus."
+    ],
+    "Who was George Washington?": [
+        "Tell me about George Washington.",
+        "Quem foi George Washington?",
+        "Me fale sobre George Washington."
+    ],
+    "Who was Abraham Lincoln?": [
+        "Tell me about Abraham Lincoln.",
+        "Quem foi Abraham Lincoln?",
+        "Me fale sobre Abraham Lincoln."
+    ],
+    "Who was Mahatma Gandhi?": [
+        "Tell me about Mahatma Gandhi.",
+        "Quem foi Mahatma Gandhi?",
+        "Me fale sobre Mahatma Gandhi."
+    ],
+    "Who was Martin Luther King Jr.?": [
+        "Tell me about Martin Luther King Jr.",
+        "Quem foi Martin Luther King Jr?",
+        "Me fale sobre Martin Luther King Jr."
+    ],
+    "Who was Nikola Tesla?": [
+        "Tell me about Nikola Tesla.",
+        "Quem foi Nikola Tesla?",
+        "Me fale sobre Nikola Tesla."
+    ],
+    "Who was Thomas Edison?": [
+        "Tell me about Thomas Edison.",
+        "Quem foi Thomas Edison?",
+        "Me fale sobre Thomas Edison."
+    ],
+    "Who was Charles Darwin?": [
+        "Tell me about Charles Darwin.",
+        "Quem foi Charles Darwin?",
+        "Me fale sobre Charles Darwin."
+    ],
+    "Who was Galileo Galilei?": [
+        "Tell me about Galileo Galilei.",
+        "Quem foi Galileo Galilei?",
+        "Me fale sobre Galileo Galilei."
+    ],
+    "Who was Johannes Gutenberg?": [
+        "Tell me about Johannes Gutenberg.",
+        "Quem foi Johannes Gutenberg?",
+        "Me fale sobre Johannes Gutenberg."
+    ],
+    "What is pi?": [
+        "Explain pi.",
+        "Define pi.",
+        "What does pi mean?",
+        "O que é pi?",
+        "Explique pi.",
+        "O que significa pi?"
+    ],
+    "What is an even number?": [
+        "Explain an even number.",
+        "Define an even number.",
+        "What does an even number mean?",
+        "O que é an even number?",
+        "Explique an even number.",
+        "O que significa an even number?"
+    ],
+    "What is an odd number?": [
+        "Explain an odd number.",
+        "Define an odd number.",
+        "What does an odd number mean?",
+        "O que é an odd number?",
+        "Explique an odd number.",
+        "O que significa an odd number?"
+    ],
+    "What is a fraction?": [
+        "Explain a fraction.",
+        "Define a fraction.",
+        "What does a fraction mean?",
+        "O que é a fraction?",
+        "Explique a fraction.",
+        "O que significa a fraction?"
+    ],
+    "What is a percentage?": [
+        "Explain a percentage.",
+        "Define a percentage.",
+        "What does a percentage mean?",
+        "O que é a percentage?",
+        "Explique a percentage.",
+        "O que significa a percentage?"
+    ],
+    "What is an equation?": [
+        "Explain an equation.",
+        "Define an equation.",
+        "What does an equation mean?",
+        "O que é an equation?",
+        "Explique an equation.",
+        "O que significa an equation?"
+    ],
+    "What is algebra?": [
+        "Explain algebra.",
+        "Define algebra.",
+        "What does algebra mean?",
+        "O que é algebra?",
+        "Explique algebra.",
+        "O que significa algebra?"
+    ],
+    "What is geometry?": [
+        "Explain geometry.",
+        "Define geometry.",
+        "What does geometry mean?",
+        "O que é geometry?",
+        "Explique geometry.",
+        "O que significa geometry?"
+    ],
+    "What is object oriented programming?": [
+        "Explain object oriented programming.",
+        "Define object oriented programming.",
+        "What does object oriented programming mean?",
+        "O que é object oriented programming?",
+        "Explique object oriented programming.",
+        "O que significa object oriented programming?"
+    ],
+    "What is inheritance in programming?": [
+        "Explain inheritance in programming.",
+        "Define inheritance in programming.",
+        "What does inheritance in programming mean?",
+        "O que é inheritance in programming?",
+        "Explique inheritance in programming.",
+        "O que significa inheritance in programming?"
+    ],
+    "What is polymorphism?": [
+        "Explain polymorphism.",
+        "Define polymorphism.",
+        "What does polymorphism mean?",
+        "O que é polymorphism?",
+        "Explique polymorphism.",
+        "O que significa polymorphism?"
+    ],
+    "What is encapsulation?": [
+        "Explain encapsulation.",
+        "Define encapsulation.",
+        "What does encapsulation mean?",
+        "O que é encapsulation?",
+        "Explique encapsulation.",
+        "O que significa encapsulation?"
+    ],
+    "What is abstraction in programming?": [
+        "Explain abstraction in programming.",
+        "Define abstraction in programming.",
+        "What does abstraction in programming mean?",
+        "O que é abstraction in programming?",
+        "Explique abstraction in programming.",
+        "O que significa abstraction in programming?"
+    ],
+    "What is recursion?": [
+        "Explain recursion.",
+        "Define recursion.",
+        "What does recursion mean?",
+        "O que é recursion?",
+        "Explique recursion.",
+        "O que significa recursion?"
+    ],
+    "What is a loop?": [
+        "Explain a loop.",
+        "Define a loop.",
+        "What does a loop mean?",
+        "O que é a loop?",
+        "Explique a loop.",
+        "O que significa a loop?"
+    ],
+    "What is a conditional statement?": [
+        "Explain a conditional statement.",
+        "Define a conditional statement.",
+        "What does a conditional statement mean?",
+        "O que é a conditional statement?",
+        "Explique a conditional statement.",
+        "O que significa a conditional statement?"
+    ],
+    "What is an exception?": [
+        "Explain an exception.",
+        "Define an exception.",
+        "What does an exception mean?",
+        "O que é an exception?",
+        "Explique an exception.",
+        "O que significa an exception?"
+    ],
+    "What is exception handling?": [
+        "Explain exception handling.",
+        "Define exception handling.",
+        "What does exception handling mean?",
+        "O que é exception handling?",
+        "Explique exception handling.",
+        "O que significa exception handling?"
+    ],
+    "What is version control?": [
+        "Explain version control.",
+        "Define version control.",
+        "What does version control mean?",
+        "O que é version control?",
+        "Explique version control.",
+        "O que significa version control?"
+    ],
+    "What is a framework?": [
+        "Explain a framework.",
+        "Define a framework.",
+        "What does a framework mean?",
+        "O que é a framework?",
+        "Explique a framework.",
+        "O que significa a framework?"
+    ],
+    "What is an interpreter?": [
+        "Explain an interpreter.",
+        "Define an interpreter.",
+        "What does an interpreter mean?",
+        "O que é an interpreter?",
+        "Explique an interpreter.",
+        "O que significa an interpreter?"
+    ],
+    "What is compiled code?": [
+        "Explain compiled code.",
+        "Define compiled code.",
+        "What does compiled code mean?",
+        "O que é compiled code?",
+        "Explique compiled code.",
+        "O que significa compiled code?"
+    ],
+    "What is source code?": [
+        "Explain source code.",
+        "Define source code.",
+        "What does source code mean?",
+        "O que é source code?",
+        "Explique source code.",
+        "O que significa source code?"
+    ],
+    "What is unit testing?": [
+        "Explain unit testing.",
+        "Define unit testing.",
+        "What does unit testing mean?",
+        "O que é unit testing?",
+        "Explique unit testing.",
+        "O que significa unit testing?"
+    ],
+    "What is a database query?": [
+        "Explain a database query.",
+        "Define a database query.",
+        "What does a database query mean?",
+        "O que é a database query?",
+        "Explique a database query.",
+        "O que significa a database query?"
+    ],
+    "What is an API endpoint?": [
+        "Explain an API endpoint.",
+        "Define an API endpoint.",
+        "What does an API endpoint mean?",
+        "O que é an API endpoint?",
+        "Explique an API endpoint.",
+        "O que significa an API endpoint?"
+    ],
+    "What is a knowledge base?": [
+        "Explain a knowledge base.",
+        "Define a knowledge base.",
+        "What does a knowledge base mean?",
+        "O que é a knowledge base?",
+        "Explique a knowledge base.",
+        "O que significa a knowledge base?"
+    ],
+    "What is knowledge retrieval?": [
+        "Explain knowledge retrieval.",
+        "Define knowledge retrieval.",
+        "What does knowledge retrieval mean?",
+        "O que é knowledge retrieval?",
+        "Explique knowledge retrieval.",
+        "O que significa knowledge retrieval?"
+    ],
+    "What is context memory?": [
+        "Explain context memory.",
+        "Define context memory.",
+        "What does context memory mean?",
+        "O que é context memory?",
+        "Explique context memory.",
+        "O que significa context memory?"
+    ],
+    "What is intent classification?": [
+        "Explain intent classification.",
+        "Define intent classification.",
+        "What does intent classification mean?",
+        "O que é intent classification?",
+        "Explique intent classification.",
+        "O que significa intent classification?"
+    ],
+    "What is natural language processing?": [
+        "Explain natural language processing.",
+        "Define natural language processing.",
+        "What does natural language processing mean?",
+        "O que é natural language processing?",
+        "Explique natural language processing.",
+        "O que significa natural language processing?"
+    ],
+    "What is tokenization?": [
+        "Explain tokenization.",
+        "Define tokenization.",
+        "What does tokenization mean?",
+        "O que é tokenization?",
+        "Explique tokenization.",
+        "O que significa tokenization?"
+    ],
+    "What is a language model?": [
+        "Explain a language model.",
+        "Define a language model.",
+        "What does a language model mean?",
+        "O que é a language model?",
+        "Explique a language model.",
+        "O que significa a language model?"
+    ],
+    "What is semantic similarity?": [
+        "Explain semantic similarity.",
+        "Define semantic similarity.",
+        "What does semantic similarity mean?",
+        "O que é semantic similarity?",
+        "Explique semantic similarity.",
+        "O que significa semantic similarity?"
+    ],
+    "What is cosine similarity?": [
+        "Explain cosine similarity.",
+        "Define cosine similarity.",
+        "What does cosine similarity mean?",
+        "O que é cosine similarity?",
+        "Explique cosine similarity.",
+        "O que significa cosine similarity?"
+    ],
+    "What is vector search?": [
+        "Explain vector search.",
+        "Define vector search.",
+        "What does vector search mean?",
+        "O que é vector search?",
+        "Explique vector search.",
+        "O que significa vector search?"
+    ],
+    "Who is Renato Dias Machado?": [
+        "Tell me about Renato Dias Machado.",
+        "Who exactly is Renato Dias Machado?",
+        "Quem é Renato Dias Machado?",
+        "Me fale sobre Renato Dias Machado."
+    ],
+    "What is your creator's name?": [
+        "Explain your creator's name.",
+        "Define your creator's name.",
+        "What does your creator's name mean?",
+        "O que é your creator's name?",
+        "Explique your creator's name.",
+        "O que significa your creator's name?"
+    ],
+    "What is a proton?": [
+        "Explain a proton.",
+        "Define a proton.",
+        "What does a proton mean?",
+        "O que é a proton?",
+        "Explique a proton.",
+        "O que significa a proton?"
+    ],
+    "What is a neutron?": [
+        "Explain a neutron.",
+        "Define a neutron.",
+        "What does a neutron mean?",
+        "O que é a neutron?",
+        "Explique a neutron.",
+        "O que significa a neutron?"
+    ],
+    "What is an electron?": [
+        "Explain an electron.",
+        "Define an electron.",
+        "What does an electron mean?",
+        "O que é an electron?",
+        "Explique an electron.",
+        "O que significa an electron?"
+    ],
+    "What is mass?": [
+        "Explain mass.",
+        "Define mass.",
+        "What does mass mean?",
+        "O que é mass?",
+        "Explique mass.",
+        "O que significa mass?"
+    ],
+    "What is weight?": [
+        "Explain weight.",
+        "Define weight.",
+        "What does weight mean?",
+        "O que é weight?",
+        "Explique weight.",
+        "O que significa weight?"
+    ],
+    "What is temperature?": [
+        "Explain temperature.",
+        "Define temperature.",
+        "What does temperature mean?",
+        "O que é temperature?",
+        "Explique temperature.",
+        "O que significa temperature?"
+    ],
+    "What is density?": [
+        "Explain density.",
+        "Define density.",
+        "What does density mean?",
+        "O que é density?",
+        "Explique density.",
+        "O que significa density?"
+    ],
+    "What is an element?": [
+        "Explain an element.",
+        "Define an element.",
+        "What does an element mean?",
+        "O que é an element?",
+        "Explique an element.",
+        "O que significa an element?"
+    ],
+    "What is a compound?": [
+        "Explain a compound.",
+        "Define a compound.",
+        "What does a compound mean?",
+        "O que é a compound?",
+        "Explique a compound.",
+        "O que significa a compound?"
+    ],
+    "What is the pH scale?": [
+        "Explain the pH scale.",
+        "Define the pH scale.",
+        "What does the pH scale mean?",
+        "O que é the pH scale?",
+        "Explique the pH scale.",
+        "O que significa the pH scale?"
+    ],
+    "What is an acid?": [
+        "Explain an acid.",
+        "Define an acid.",
+        "What does an acid mean?",
+        "O que é an acid?",
+        "Explique an acid.",
+        "O que significa an acid?"
+    ],
+    "What is a chromosome?": [
+        "Explain a chromosome.",
+        "Define a chromosome.",
+        "What does a chromosome mean?",
+        "O que é a chromosome?",
+        "Explique a chromosome.",
+        "O que significa a chromosome?"
+    ],
+    "What is a gene?": [
+        "Explain a gene.",
+        "Define a gene.",
+        "What does a gene mean?",
+        "O que é a gene?",
+        "Explique a gene.",
+        "O que significa a gene?"
+    ],
+    "What is a virus?": [
+        "Explain a virus.",
+        "Define a virus.",
+        "What does a virus mean?",
+        "O que é a virus?",
+        "Explique a virus.",
+        "O que significa a virus?"
+    ],
+    "What is a bacteria?": [
+        "Explain a bacteria.",
+        "Define a bacteria.",
+        "What does a bacteria mean?",
+        "O que é a bacteria?",
+        "Explique a bacteria.",
+        "O que significa a bacteria?"
+    ],
+    "What is the human brain?": [
+        "Explain the human brain.",
+        "Define the human brain.",
+        "What does the human brain mean?",
+        "O que é the human brain?",
+        "Explique the human brain.",
+        "O que significa the human brain?"
+    ],
+    "What is a solar eclipse?": [
+        "Explain a solar eclipse.",
+        "Define a solar eclipse.",
+        "What does a solar eclipse mean?",
+        "O que é a solar eclipse?",
+        "Explique a solar eclipse.",
+        "O que significa a solar eclipse?"
+    ],
+    "What is a lunar eclipse?": [
+        "Explain a lunar eclipse.",
+        "Define a lunar eclipse.",
+        "What does a lunar eclipse mean?",
+        "O que é a lunar eclipse?",
+        "Explique a lunar eclipse.",
+        "O que significa a lunar eclipse?"
+    ],
+    "What is a comet?": [
+        "Explain a comet.",
+        "Define a comet.",
+        "What does a comet mean?",
+        "O que é a comet?",
+        "Explique a comet.",
+        "O que significa a comet?"
+    ],
+    "What is an asteroid?": [
+        "Explain an asteroid.",
+        "Define an asteroid.",
+        "What does an asteroid mean?",
+        "O que é an asteroid?",
+        "Explique an asteroid.",
+        "O que significa an asteroid?"
+    ],
+    "What is a nebula?": [
+        "Explain a nebula.",
+        "Define a nebula.",
+        "What does a nebula mean?",
+        "O que é a nebula?",
+        "Explique a nebula.",
+        "O que significa a nebula?"
+    ],
+    "What is a constellation?": [
+        "Explain a constellation.",
+        "Define a constellation.",
+        "What does a constellation mean?",
+        "O que é a constellation?",
+        "Explique a constellation.",
+        "O que significa a constellation?"
+    ],
+    "What is a meteor?": [
+        "Explain a meteor.",
+        "Define a meteor.",
+        "What does a meteor mean?",
+        "O que é a meteor?",
+        "Explique a meteor.",
+        "O que significa a meteor?"
+    ],
+    "What is DNS?": [
+        "Explain DNS.",
+        "Define DNS.",
+        "What does DNS mean?",
+        "O que é DNS?",
+        "Explique DNS.",
+        "O que significa DNS?"
+    ],
+    "What is SSD?": [
+        "Explain SSD.",
+        "Define SSD.",
+        "What does SSD mean?",
+        "O que é SSD?",
+        "Explique SSD.",
+        "O que significa SSD?"
+    ],
+    "What is HDD?": [
+        "Explain HDD.",
+        "Define HDD.",
+        "What does HDD mean?",
+        "O que é HDD?",
+        "Explique HDD.",
+        "O que significa HDD?"
+    ],
+    "What is BIOS?": [
+        "Explain BIOS.",
+        "Define BIOS.",
+        "What does BIOS mean?",
+        "O que é BIOS?",
+        "Explique BIOS.",
+        "O que significa BIOS?"
+    ],
+    "What is a GUI?": [
+        "Explain a GUI.",
+        "Define a GUI.",
+        "What does a GUI mean?",
+        "O que é a GUI?",
+        "Explique a GUI.",
+        "O que significa a GUI?"
+    ],
+    "What is an IDE?": [
+        "Explain an IDE.",
+        "Define an IDE.",
+        "What does an IDE mean?",
+        "O que é an IDE?",
+        "Explique an IDE.",
+        "O que significa an IDE?"
+    ],
+    "What is chocolate made from?": [
+        "Explain chocolate made from.",
+        "Define chocolate made from.",
+        "What does chocolate made from mean?",
+        "O que é chocolate made from?",
+        "Explique chocolate made from.",
+        "O que significa chocolate made from?"
+    ],
+    "What is coffee made from?": [
+        "Explain coffee made from.",
+        "Define coffee made from.",
+        "What does coffee made from mean?",
+        "O que é coffee made from?",
+        "Explique coffee made from.",
+        "O que significa coffee made from?"
+    ],
+    "What is the Olympic Games?": [
+        "Explain the Olympic Games.",
+        "Define the Olympic Games.",
+        "What does the Olympic Games mean?",
+        "O que é the Olympic Games?",
+        "Explique the Olympic Games.",
+        "O que significa the Olympic Games?"
+    ],
+    "What is an island?": [
+        "Explain an island.",
+        "Define an island.",
+        "What does an island mean?",
+        "O que é an island?",
+        "Explique an island.",
+        "O que significa an island?"
+    ],
+    "What is a peninsula?": [
+        "Explain a peninsula.",
+        "Define a peninsula.",
+        "What does a peninsula mean?",
+        "O que é a peninsula?",
+        "Explique a peninsula.",
+        "O que significa a peninsula?"
+    ],
+    "What is a desert?": [
+        "Explain a desert.",
+        "Define a desert.",
+        "What does a desert mean?",
+        "O que é a desert?",
+        "Explique a desert.",
+        "O que significa a desert?"
+    ],
+    "What is a rainforest?": [
+        "Explain a rainforest.",
+        "Define a rainforest.",
+        "What does a rainforest mean?",
+        "O que é a rainforest?",
+        "Explique a rainforest.",
+        "O que significa a rainforest?"
+    ],
+    "What is a volcano?": [
+        "Explain a volcano.",
+        "Define a volcano.",
+        "What does a volcano mean?",
+        "O que é a volcano?",
+        "Explique a volcano.",
+        "O que significa a volcano?"
+    ],
+    "What is an earthquake?": [
+        "Explain an earthquake.",
+        "Define an earthquake.",
+        "What does an earthquake mean?",
+        "O que é an earthquake?",
+        "Explique an earthquake.",
+        "O que significa an earthquake?"
+    ],
+    "What is happiness?": [
+        "Explain happiness.",
+        "Define happiness.",
+        "What does happiness mean?",
+        "O que é happiness?",
+        "Explique happiness.",
+        "O que significa happiness?"
+    ],
+    "What is music?": [
+        "Explain music.",
+        "Define music.",
+        "What does music mean?",
+        "O que é music?",
+        "Explique music.",
+        "O que significa music?"
+    ],
+    "What is a book?": [
+        "Explain a book.",
+        "Define a book.",
+        "What does a book mean?",
+        "O que é a book?",
+        "Explique a book.",
+        "O que significa a book?"
+    ],
+    "What is a movie?": [
+        "Explain a movie.",
+        "Define a movie.",
+        "What does a movie mean?",
+        "O que é a movie?",
+        "Explique a movie.",
+        "O que significa a movie?"
+    ],
+    "What is an instrument?": [
+        "Explain an instrument.",
+        "Define an instrument.",
+        "What does an instrument mean?",
+        "O que é an instrument?",
+        "Explique an instrument.",
+        "O que significa an instrument?"
+    ],
+    "What is a language?": [
+        "Explain a language.",
+        "Define a language.",
+        "What does a language mean?",
+        "O que é a language?",
+        "Explique a language.",
+        "O que significa a language?"
+    ],
+    "What is communication?": [
+        "Explain communication.",
+        "Define communication.",
+        "What does communication mean?",
+        "O que é communication?",
+        "Explique communication.",
+        "O que significa communication?"
+    ],
+    "What is culture?": [
+        "Explain culture.",
+        "Define culture.",
+        "What does culture mean?",
+        "O que é culture?",
+        "Explique culture.",
+        "O que significa culture?"
+    ],
+    "What is education?": [
+        "Explain education.",
+        "Define education.",
+        "What does education mean?",
+        "O que é education?",
+        "Explique education.",
+        "O que significa education?"
+    ],
+    "What is a hobby?": [
+        "Explain a hobby.",
+        "Define a hobby.",
+        "What does a hobby mean?",
+        "O que é a hobby?",
+        "Explique a hobby.",
+        "O que significa a hobby?"
+    ],
+    "Who was the first human to travel into space?": [
+        "Tell me about the first human to travel into space.",
+        "Quem foi the first human to travel into space?",
+        "Me fale sobre the first human to travel into space."
+    ],
+    "Who was the British Prime Minister during World War 2?": [
+        "Tell me about the British Prime Minister during World War 2.",
+        "Quem foi the British Prime Minister during World War 2?",
+        "Me fale sobre the British Prime Minister during World War 2."
+    ],
+    "Who was the famous queen of Ancient Egypt who allied with Julius Caesar?": [
+        "Tell me about the famous queen of Ancient Egypt who allied with Julius Caesar.",
+        "Quem foi the famous queen of Ancient Egypt who allied with Julius Caesar?",
+        "Me fale sobre the famous queen of Ancient Egypt who allied with Julius Caesar."
+    ],
+    "Who was the main author of the United States Declaration of Independence?": [
+        "Tell me about the main author of the United States Declaration of Independence.",
+        "Quem foi the main author of the United States Declaration of Independence?",
+        "Me fale sobre the main author of the United States Declaration of Independence."
+    ],
+    "Who is Batman?": [
+        "Tell me about Batman.",
+        "Who exactly is Batman?",
+        "Quem é Batman?",
+        "Me fale sobre Batman."
+    ],
+    "Who is Spider-Man?": [
+        "Tell me about Spider-Man.",
+        "Who exactly is Spider-Man?",
+        "Quem é Spider-Man?",
+        "Me fale sobre Spider-Man."
+    ],
+    "What is Star Wars?": [
+        "Explain Star Wars.",
+        "Define Star Wars.",
+        "What does Star Wars mean?",
+        "O que é Star Wars?",
+        "Explique Star Wars.",
+        "O que significa Star Wars?"
+    ],
+    "What is Dragon Ball?": [
+        "Explain Dragon Ball.",
+        "Define Dragon Ball.",
+        "What does Dragon Ball mean?",
+        "O que é Dragon Ball?",
+        "Explique Dragon Ball.",
+        "O que significa Dragon Ball?"
+    ],
+    "What is Minecraft?": [
+        "Explain Minecraft.",
+        "Define Minecraft.",
+        "What does Minecraft mean?",
+        "O que é Minecraft?",
+        "Explique Minecraft.",
+        "O que significa Minecraft?"
+    ],
+    "What is Breaking Bad?": [
+        "Explain Breaking Bad.",
+        "Define Breaking Bad.",
+        "What does Breaking Bad mean?",
+        "O que é Breaking Bad?",
+        "Explique Breaking Bad.",
+        "O que significa Breaking Bad?"
+    ],
+    "Who is Walter White?": [
+        "Tell me about Walter White.",
+        "Who exactly is Walter White?",
+        "Quem é Walter White?",
+        "Me fale sobre Walter White."
+    ],
+    "Who is Jesse Pinkman?": [
+        "Tell me about Jesse Pinkman.",
+        "Who exactly is Jesse Pinkman?",
+        "Quem é Jesse Pinkman?",
+        "Me fale sobre Jesse Pinkman."
+    ],
+    "What is Game of Thrones?": [
+        "Explain Game of Thrones.",
+        "Define Game of Thrones.",
+        "What does Game of Thrones mean?",
+        "O que é Game of Thrones?",
+        "Explique Game of Thrones.",
+        "O que significa Game of Thrones?"
+    ],
+    "Who is Jon Snow?": [
+        "Tell me about Jon Snow.",
+        "Who exactly is Jon Snow?",
+        "Quem é Jon Snow?",
+        "Me fale sobre Jon Snow."
+    ],
+    "Who is Daenerys Targaryen?": [
+        "Tell me about Daenerys Targaryen.",
+        "Who exactly is Daenerys Targaryen?",
+        "Quem é Daenerys Targaryen?",
+        "Me fale sobre Daenerys Targaryen."
+    ],
+    "What is Stranger Things?": [
+        "Explain Stranger Things.",
+        "Define Stranger Things.",
+        "What does Stranger Things mean?",
+        "O que é Stranger Things?",
+        "Explique Stranger Things.",
+        "O que significa Stranger Things?"
+    ],
+    "Who is Eleven?": [
+        "Tell me about Eleven.",
+        "Who exactly is Eleven?",
+        "Quem é Eleven?",
+        "Me fale sobre Eleven."
+    ],
+    "What is The Walking Dead?": [
+        "Explain The Walking Dead.",
+        "Define The Walking Dead.",
+        "What does The Walking Dead mean?",
+        "O que é The Walking Dead?",
+        "Explique The Walking Dead.",
+        "O que significa The Walking Dead?"
+    ],
+    "Who is Joel Miller?": [
+        "Tell me about Joel Miller.",
+        "Who exactly is Joel Miller?",
+        "Quem é Joel Miller?",
+        "Me fale sobre Joel Miller."
+    ],
+    "Who is Ellie Williams?": [
+        "Tell me about Ellie Williams.",
+        "Who exactly is Ellie Williams?",
+        "Quem é Ellie Williams?",
+        "Me fale sobre Ellie Williams."
+    ],
+    "Who is Arthur Morgan?": [
+        "Tell me about Arthur Morgan.",
+        "Who exactly is Arthur Morgan?",
+        "Quem é Arthur Morgan?",
+        "Me fale sobre Arthur Morgan."
+    ],
+    "Who is John Marston?": [
+        "Tell me about John Marston.",
+        "Who exactly is John Marston?",
+        "Quem é John Marston?",
+        "Me fale sobre John Marston."
+    ],
+    "What is GTA V?": [
+        "Explain GTA V.",
+        "Define GTA V.",
+        "What does GTA V mean?",
+        "O que é GTA V?",
+        "Explique GTA V.",
+        "O que significa GTA V?"
+    ],
+    "Who is Trevor Philips?": [
+        "Tell me about Trevor Philips.",
+        "Who exactly is Trevor Philips?",
+        "Quem é Trevor Philips?",
+        "Me fale sobre Trevor Philips."
+    ],
+    "Who is Michael De Santa?": [
+        "Tell me about Michael De Santa.",
+        "Who exactly is Michael De Santa?",
+        "Quem é Michael De Santa?",
+        "Me fale sobre Michael De Santa."
+    ],
+    "Who is Franklin Clinton?": [
+        "Tell me about Franklin Clinton.",
+        "Who exactly is Franklin Clinton?",
+        "Quem é Franklin Clinton?",
+        "Me fale sobre Franklin Clinton."
+    ],
+    "Who is Steve?": [
+        "Tell me about Steve.",
+        "Who exactly is Steve?",
+        "Quem é Steve?",
+        "Me fale sobre Steve."
+    ],
+    "What is Terraria?": [
+        "Explain Terraria.",
+        "Define Terraria.",
+        "What does Terraria mean?",
+        "O que é Terraria?",
+        "Explique Terraria.",
+        "O que significa Terraria?"
+    ],
+    "What is Hollow Knight?": [
+        "Explain Hollow Knight.",
+        "Define Hollow Knight.",
+        "What does Hollow Knight mean?",
+        "O que é Hollow Knight?",
+        "Explique Hollow Knight.",
+        "O que significa Hollow Knight?"
+    ],
+    "What is Celeste?": [
+        "Explain Celeste.",
+        "Define Celeste.",
+        "What does Celeste mean?",
+        "O que é Celeste?",
+        "Explique Celeste.",
+        "O que significa Celeste?"
+    ],
+    "What is Undertale?": [
+        "Explain Undertale.",
+        "Define Undertale.",
+        "What does Undertale mean?",
+        "O que é Undertale?",
+        "Explique Undertale.",
+        "O que significa Undertale?"
+    ],
+    "Who is Sans?": [
+        "Tell me about Sans.",
+        "Who exactly is Sans?",
+        "Quem é Sans?",
+        "Me fale sobre Sans."
+    ],
+    "What is Deltarune?": [
+        "Explain Deltarune.",
+        "Define Deltarune.",
+        "What does Deltarune mean?",
+        "O que é Deltarune?",
+        "Explique Deltarune.",
+        "O que significa Deltarune?"
+    ],
+    "What is League of Legends?": [
+        "Explain League of Legends.",
+        "Define League of Legends.",
+        "What does League of Legends mean?",
+        "O que é League of Legends?",
+        "Explique League of Legends.",
+        "O que significa League of Legends?"
+    ],
+    "What is Valorant?": [
+        "Explain Valorant.",
+        "Define Valorant.",
+        "What does Valorant mean?",
+        "O que é Valorant?",
+        "Explique Valorant.",
+        "O que significa Valorant?"
+    ],
+    "What is Counter-Strike?": [
+        "Explain Counter-Strike.",
+        "Define Counter-Strike.",
+        "What does Counter-Strike mean?",
+        "O que é Counter-Strike?",
+        "Explique Counter-Strike.",
+        "O que significa Counter-Strike?"
+    ],
+    "What is Fortnite?": [
+        "Explain Fortnite.",
+        "Define Fortnite.",
+        "What does Fortnite mean?",
+        "O que é Fortnite?",
+        "Explique Fortnite.",
+        "O que significa Fortnite?"
+    ],
+    "What is Roblox?": [
+        "Explain Roblox.",
+        "Define Roblox.",
+        "What does Roblox mean?",
+        "O que é Roblox?",
+        "Explique Roblox.",
+        "O que significa Roblox?"
+    ],
+    "What is Among Us?": [
+        "Explain Among Us.",
+        "Define Among Us.",
+        "What does Among Us mean?",
+        "O que é Among Us?",
+        "Explique Among Us.",
+        "O que significa Among Us?"
+    ],
+    "What is Cyberpunk 2077?": [
+        "Explain Cyberpunk 2077.",
+        "Define Cyberpunk 2077.",
+        "What does Cyberpunk 2077 mean?",
+        "O que é Cyberpunk 2077?",
+        "Explique Cyberpunk 2077.",
+        "O que significa Cyberpunk 2077?"
+    ],
+    "What is God of War?": [
+        "Explain God of War.",
+        "Define God of War.",
+        "What does God of War mean?",
+        "O que é God of War?",
+        "Explique God of War.",
+        "O que significa God of War?"
+    ],
+    "Who is Kratos?": [
+        "Tell me about Kratos.",
+        "Who exactly is Kratos?",
+        "Quem é Kratos?",
+        "Me fale sobre Kratos."
+    ],
+    "What is The Witcher 3?": [
+        "Explain The Witcher 3.",
+        "Define The Witcher 3.",
+        "What does The Witcher 3 mean?",
+        "O que é The Witcher 3?",
+        "Explique The Witcher 3.",
+        "O que significa The Witcher 3?"
+    ],
+    "Who is Geralt of Rivia?": [
+        "Tell me about Geralt of Rivia.",
+        "Who exactly is Geralt of Rivia?",
+        "Quem é Geralt of Rivia?",
+        "Me fale sobre Geralt of Rivia."
+    ],
+    "What is Dark Souls?": [
+        "Explain Dark Souls.",
+        "Define Dark Souls.",
+        "What does Dark Souls mean?",
+        "O que é Dark Souls?",
+        "Explique Dark Souls.",
+        "O que significa Dark Souls?"
+    ],
+    "What is Elden Ring?": [
+        "Explain Elden Ring.",
+        "Define Elden Ring.",
+        "What does Elden Ring mean?",
+        "O que é Elden Ring?",
+        "Explique Elden Ring.",
+        "O que significa Elden Ring?"
+    ],
+    "Who is Mario?": [
+        "Tell me about Mario.",
+        "Who exactly is Mario?",
+        "Quem é Mario?",
+        "Me fale sobre Mario."
+    ],
+    "Who is Luigi?": [
+        "Tell me about Luigi.",
+        "Who exactly is Luigi?",
+        "Quem é Luigi?",
+        "Me fale sobre Luigi."
+    ],
+    "Who is Link?": [
+        "Tell me about Link.",
+        "Who exactly is Link?",
+        "Quem é Link?",
+        "Me fale sobre Link."
+    ],
+    "Who is Zelda?": [
+        "Tell me about Zelda.",
+        "Who exactly is Zelda?",
+        "Quem é Zelda?",
+        "Me fale sobre Zelda."
+    ],
+    "What is Pokémon?": [
+        "Explain Pokémon.",
+        "Define Pokémon.",
+        "What does Pokémon mean?",
+        "O que é Pokémon?",
+        "Explique Pokémon.",
+        "O que significa Pokémon?"
+    ],
+    "Who is Pikachu?": [
+        "Tell me about Pikachu.",
+        "Who exactly is Pikachu?",
+        "Quem é Pikachu?",
+        "Me fale sobre Pikachu."
+    ],
+    "Who is Ash Ketchum?": [
+        "Tell me about Ash Ketchum.",
+        "Who exactly is Ash Ketchum?",
+        "Quem é Ash Ketchum?",
+        "Me fale sobre Ash Ketchum."
+    ],
+    "Who is Goku?": [
+        "Tell me about Goku.",
+        "Who exactly is Goku?",
+        "Quem é Goku?",
+        "Me fale sobre Goku."
+    ],
+    "Who is Vegeta?": [
+        "Tell me about Vegeta.",
+        "Who exactly is Vegeta?",
+        "Quem é Vegeta?",
+        "Me fale sobre Vegeta."
+    ],
+    "What is Naruto?": [
+        "Explain Naruto.",
+        "Define Naruto.",
+        "What does Naruto mean?",
+        "O que é Naruto?",
+        "Explique Naruto.",
+        "O que significa Naruto?"
+    ],
+    "Who is Naruto Uzumaki?": [
+        "Tell me about Naruto Uzumaki.",
+        "Who exactly is Naruto Uzumaki?",
+        "Quem é Naruto Uzumaki?",
+        "Me fale sobre Naruto Uzumaki."
+    ],
+    "Who is Sasuke Uchiha?": [
+        "Tell me about Sasuke Uchiha.",
+        "Who exactly is Sasuke Uchiha?",
+        "Quem é Sasuke Uchiha?",
+        "Me fale sobre Sasuke Uchiha."
+    ],
+    "What is One Piece?": [
+        "Explain One Piece.",
+        "Define One Piece.",
+        "What does One Piece mean?",
+        "O que é One Piece?",
+        "Explique One Piece.",
+        "O que significa One Piece?"
+    ],
+    "Who is Monkey D. Luffy?": [
+        "Tell me about Monkey D Luffy.",
+        "Who exactly is Monkey D Luffy?",
+        "Quem é Monkey D Luffy?",
+        "Me fale sobre Monkey D Luffy."
+    ],
+    "What is Attack on Titan?": [
+        "Explain Attack on Titan.",
+        "Define Attack on Titan.",
+        "What does Attack on Titan mean?",
+        "O que é Attack on Titan?",
+        "Explique Attack on Titan.",
+        "O que significa Attack on Titan?"
+    ],
+    "Who is Eren Yeager?": [
+        "Tell me about Eren Yeager.",
+        "Who exactly is Eren Yeager?",
+        "Quem é Eren Yeager?",
+        "Me fale sobre Eren Yeager."
+    ],
+    "What is Death Note?": [
+        "Explain Death Note.",
+        "Define Death Note.",
+        "What does Death Note mean?",
+        "O que é Death Note?",
+        "Explique Death Note.",
+        "O que significa Death Note?"
+    ],
+    "Who is Light Yagami?": [
+        "Tell me about Light Yagami.",
+        "Who exactly is Light Yagami?",
+        "Quem é Light Yagami?",
+        "Me fale sobre Light Yagami."
+    ],
+    "Who is L?": [
+        "Tell me about L.",
+        "Who exactly is L?",
+        "Quem é L?",
+        "Me fale sobre L."
+    ],
+    "What is Demon Slayer?": [
+        "Explain Demon Slayer.",
+        "Define Demon Slayer.",
+        "What does Demon Slayer mean?",
+        "O que é Demon Slayer?",
+        "Explique Demon Slayer.",
+        "O que significa Demon Slayer?"
+    ],
+    "Who is Tanjiro Kamado?": [
+        "Tell me about Tanjiro Kamado.",
+        "Who exactly is Tanjiro Kamado?",
+        "Quem é Tanjiro Kamado?",
+        "Me fale sobre Tanjiro Kamado."
+    ],
+    "What is Harry Potter?": [
+        "Explain Harry Potter.",
+        "Define Harry Potter.",
+        "What does Harry Potter mean?",
+        "O que é Harry Potter?",
+        "Explique Harry Potter.",
+        "O que significa Harry Potter?"
+    ],
+    "Who is Harry Potter?": [
+        "Tell me about Harry Potter.",
+        "Who exactly is Harry Potter?",
+        "Quem é Harry Potter?",
+        "Me fale sobre Harry Potter."
+    ],
+    "Who is Hermione Granger?": [
+        "Tell me about Hermione Granger.",
+        "Who exactly is Hermione Granger?",
+        "Quem é Hermione Granger?",
+        "Me fale sobre Hermione Granger."
+    ],
+    "Who is Lord Voldemort?": [
+        "Tell me about Lord Voldemort.",
+        "Who exactly is Lord Voldemort?",
+        "Quem é Lord Voldemort?",
+        "Me fale sobre Lord Voldemort."
+    ],
+    "Who is Frodo Baggins?": [
+        "Tell me about Frodo Baggins.",
+        "Who exactly is Frodo Baggins?",
+        "Quem é Frodo Baggins?",
+        "Me fale sobre Frodo Baggins."
+    ],
+    "Who is Gandalf?": [
+        "Tell me about Gandalf.",
+        "Who exactly is Gandalf?",
+        "Quem é Gandalf?",
+        "Me fale sobre Gandalf."
+    ],
+    "What is The Hobbit?": [
+        "Explain The Hobbit.",
+        "Define The Hobbit.",
+        "What does The Hobbit mean?",
+        "O que é The Hobbit?",
+        "Explique The Hobbit.",
+        "O que significa The Hobbit?"
+    ],
+    "Who is Bilbo Baggins?": [
+        "Tell me about Bilbo Baggins.",
+        "Who exactly is Bilbo Baggins?",
+        "Quem é Bilbo Baggins?",
+        "Me fale sobre Bilbo Baggins."
+    ],
+    "What is The Matrix?": [
+        "Explain The Matrix.",
+        "Define The Matrix.",
+        "What does The Matrix mean?",
+        "O que é The Matrix?",
+        "Explique The Matrix.",
+        "O que significa The Matrix?"
+    ],
+    "Who is Neo?": [
+        "Tell me about Neo.",
+        "Who exactly is Neo?",
+        "Quem é Neo?",
+        "Me fale sobre Neo."
+    ],
+    "What is Marvel?": [
+        "Explain Marvel.",
+        "Define Marvel.",
+        "What does Marvel mean?",
+        "O que é Marvel?",
+        "Explique Marvel.",
+        "O que significa Marvel?"
+    ],
+    "Who is Iron Man?": [
+        "Tell me about Iron Man.",
+        "Who exactly is Iron Man?",
+        "Quem é Iron Man?",
+        "Me fale sobre Iron Man."
+    ],
+    "Who is Tony Stark?": [
+        "Tell me about Tony Stark.",
+        "Who exactly is Tony Stark?",
+        "Quem é Tony Stark?",
+        "Me fale sobre Tony Stark."
+    ],
+    "Who is Captain America?": [
+        "Tell me about Captain America.",
+        "Who exactly is Captain America?",
+        "Quem é Captain America?",
+        "Me fale sobre Captain America."
+    ],
+    "Who is Thor?": [
+        "Tell me about Thor.",
+        "Who exactly is Thor?",
+        "Quem é Thor?",
+        "Me fale sobre Thor."
+    ],
+    "Who is Hulk?": [
+        "Tell me about Hulk.",
+        "Who exactly is Hulk?",
+        "Quem é Hulk?",
+        "Me fale sobre Hulk."
+    ],
+    "Who is Thanos?": [
+        "Tell me about Thanos.",
+        "Who exactly is Thanos?",
+        "Quem é Thanos?",
+        "Me fale sobre Thanos."
+    ],
+    "What is the MCU?": [
+        "Explain the MCU.",
+        "Define the MCU.",
+        "What does the MCU mean?",
+        "O que é the MCU?",
+        "Explique the MCU.",
+        "O que significa the MCU?"
+    ],
+    "What is DC Comics?": [
+        "Explain DC Comics.",
+        "Define DC Comics.",
+        "What does DC Comics mean?",
+        "O que é DC Comics?",
+        "Explique DC Comics.",
+        "O que significa DC Comics?"
+    ],
+    "Who is Bruce Wayne?": [
+        "Tell me about Bruce Wayne.",
+        "Who exactly is Bruce Wayne?",
+        "Quem é Bruce Wayne?",
+        "Me fale sobre Bruce Wayne."
+    ],
+    "Who is Superman?": [
+        "Tell me about Superman.",
+        "Who exactly is Superman?",
+        "Quem é Superman?",
+        "Me fale sobre Superman."
+    ],
+    "Who is Wonder Woman?": [
+        "Tell me about Wonder Woman.",
+        "Who exactly is Wonder Woman?",
+        "Quem é Wonder Woman?",
+        "Me fale sobre Wonder Woman."
+    ],
+    "Who is The Joker?": [
+        "Tell me about The Joker.",
+        "Who exactly is The Joker?",
+        "Quem é The Joker?",
+        "Me fale sobre The Joker."
+    ],
+    "What is Invincible?": [
+        "Explain Invincible.",
+        "Define Invincible.",
+        "What does Invincible mean?",
+        "O que é Invincible?",
+        "Explique Invincible.",
+        "O que significa Invincible?"
+    ],
+    "Who is Mark Grayson?": [
+        "Tell me about Mark Grayson.",
+        "Who exactly is Mark Grayson?",
+        "Quem é Mark Grayson?",
+        "Me fale sobre Mark Grayson."
+    ],
+    "Who is Omni-Man?": [
+        "Tell me about Omni-Man.",
+        "Who exactly is Omni-Man?",
+        "Quem é Omni-Man?",
+        "Me fale sobre Omni-Man."
+    ],
+    "What is The Boys?": [
+        "Explain The Boys.",
+        "Define The Boys.",
+        "What does The Boys mean?",
+        "O que é The Boys?",
+        "Explique The Boys.",
+        "O que significa The Boys?"
+    ],
+    "Who is Homelander?": [
+        "Tell me about Homelander.",
+        "Who exactly is Homelander?",
+        "Quem é Homelander?",
+        "Me fale sobre Homelander."
+    ],
+    "What is Arcane?": [
+        "Explain Arcane.",
+        "Define Arcane.",
+        "What does Arcane mean?",
+        "O que é Arcane?",
+        "Explique Arcane.",
+        "O que significa Arcane?"
+    ],
+    "Who is Jinx?": [
+        "Tell me about Jinx.",
+        "Who exactly is Jinx?",
+        "Quem é Jinx?",
+        "Me fale sobre Jinx."
+    ],
+    "Who is Vi?": [
+        "Tell me about Vi.",
+        "Who exactly is Vi?",
+        "Quem é Vi?",
+        "Me fale sobre Vi."
+    ],
+    "What is Fallout?": [
+        "Explain Fallout.",
+        "Define Fallout.",
+        "What does Fallout mean?",
+        "O que é Fallout?",
+        "Explique Fallout.",
+        "O que significa Fallout?"
+    ],
+    "What is Mass Effect?": [
+        "Explain Mass Effect.",
+        "Define Mass Effect.",
+        "What does Mass Effect mean?",
+        "O que é Mass Effect?",
+        "Explique Mass Effect.",
+        "O que significa Mass Effect?"
+    ],
+    "Who is Commander Shepard?": [
+        "Tell me about Commander Shepard.",
+        "Who exactly is Commander Shepard?",
+        "Quem é Commander Shepard?",
+        "Me fale sobre Commander Shepard."
+    ],
+    "What is BioShock?": [
+        "Explain BioShock.",
+        "Define BioShock.",
+        "What does BioShock mean?",
+        "O que é BioShock?",
+        "Explique BioShock.",
+        "O que significa BioShock?"
+    ],
+    "What is Resident Evil?": [
+        "Explain Resident Evil.",
+        "Define Resident Evil.",
+        "What does Resident Evil mean?",
+        "O que é Resident Evil?",
+        "Explique Resident Evil.",
+        "O que significa Resident Evil?"
+    ],
+    "Who is Leon Kennedy?": [
+        "Tell me about Leon Kennedy.",
+        "Who exactly is Leon Kennedy?",
+        "Quem é Leon Kennedy?",
+        "Me fale sobre Leon Kennedy."
+    ],
+    "Who is Jill Valentine?": [
+        "Tell me about Jill Valentine.",
+        "Who exactly is Jill Valentine?",
+        "Quem é Jill Valentine?",
+        "Me fale sobre Jill Valentine."
+    ],
+    "What is Silent Hill?": [
+        "Explain Silent Hill.",
+        "Define Silent Hill.",
+        "What does Silent Hill mean?",
+        "O que é Silent Hill?",
+        "Explique Silent Hill.",
+        "O que significa Silent Hill?"
+    ],
+    "What is Metal Gear Solid?": [
+        "Explain Metal Gear Solid.",
+        "Define Metal Gear Solid.",
+        "What does Metal Gear Solid mean?",
+        "O que é Metal Gear Solid?",
+        "Explique Metal Gear Solid.",
+        "O que significa Metal Gear Solid?"
+    ],
+    "Who is Solid Snake?": [
+        "Tell me about Solid Snake.",
+        "Who exactly is Solid Snake?",
+        "Quem é Solid Snake?",
+        "Me fale sobre Solid Snake."
+    ],
+    "What is Persona 5?": [
+        "Explain Persona 5.",
+        "Define Persona 5.",
+        "What does Persona 5 mean?",
+        "O que é Persona 5?",
+        "Explique Persona 5.",
+        "O que significa Persona 5?"
+    ],
+    "What is Final Fantasy VII?": [
+        "Explain Final Fantasy VII.",
+        "Define Final Fantasy VII.",
+        "What does Final Fantasy VII mean?",
+        "O que é Final Fantasy VII?",
+        "Explique Final Fantasy VII.",
+        "O que significa Final Fantasy VII?"
+    ],
+    "Who is Cloud Strife?": [
+        "Tell me about Cloud Strife.",
+        "Who exactly is Cloud Strife?",
+        "Quem é Cloud Strife?",
+        "Me fale sobre Cloud Strife."
+    ],
+    "Who is Sephiroth?": [
+        "Tell me about Sephiroth.",
+        "Who exactly is Sephiroth?",
+        "Quem é Sephiroth?",
+        "Me fale sobre Sephiroth."
+    ],
+    "What is Kingdom Hearts?": [
+        "Explain Kingdom Hearts.",
+        "Define Kingdom Hearts.",
+        "What does Kingdom Hearts mean?",
+        "O que é Kingdom Hearts?",
+        "Explique Kingdom Hearts.",
+        "O que significa Kingdom Hearts?"
+    ],
+    "What is Yakuza?": [
+        "Explain Yakuza.",
+        "Define Yakuza.",
+        "What does Yakuza mean?",
+        "O que é Yakuza?",
+        "Explique Yakuza.",
+        "O que significa Yakuza?"
+    ],
+    "Who is Kazuma Kiryu?": [
+        "Tell me about Kazuma Kiryu.",
+        "Who exactly is Kazuma Kiryu?",
+        "Quem é Kazuma Kiryu?",
+        "Me fale sobre Kazuma Kiryu."
+    ],
+    "What is The Simpsons?": [
+        "Explain The Simpsons.",
+        "Define The Simpsons.",
+        "What does The Simpsons mean?",
+        "O que é The Simpsons?",
+        "Explique The Simpsons.",
+        "O que significa The Simpsons?"
+    ],
+    "Who is Homer Simpson?": [
+        "Tell me about Homer Simpson.",
+        "Who exactly is Homer Simpson?",
+        "Quem é Homer Simpson?",
+        "Me fale sobre Homer Simpson."
+    ],
+    "Who is Bart Simpson?": [
+        "Tell me about Bart Simpson.",
+        "Who exactly is Bart Simpson?",
+        "Quem é Bart Simpson?",
+        "Me fale sobre Bart Simpson."
+    ],
+    "What is Family Guy?": [
+        "Explain Family Guy.",
+        "Define Family Guy.",
+        "What does Family Guy mean?",
+        "O que é Family Guy?",
+        "Explique Family Guy.",
+        "O que significa Family Guy?"
+    ],
+    "Who is Peter Griffin?": [
+        "Tell me about Peter Griffin.",
+        "Who exactly is Peter Griffin?",
+        "Quem é Peter Griffin?",
+        "Me fale sobre Peter Griffin."
+    ],
+    "What is South Park?": [
+        "Explain South Park.",
+        "Define South Park.",
+        "What does South Park mean?",
+        "O que é South Park?",
+        "Explique South Park.",
+        "O que significa South Park?"
+    ],
+    "What is Rick and Morty?": [
+        "Explain Rick and Morty.",
+        "Define Rick and Morty.",
+        "What does Rick and Morty mean?",
+        "O que é Rick and Morty?",
+        "Explique Rick and Morty.",
+        "O que significa Rick and Morty?"
+    ],
+    "Who is Rick Sanchez?": [
+        "Tell me about Rick Sanchez.",
+        "Who exactly is Rick Sanchez?",
+        "Quem é Rick Sanchez?",
+        "Me fale sobre Rick Sanchez."
+    ],
+    "Who is Morty Smith?": [
+        "Tell me about Morty Smith.",
+        "Who exactly is Morty Smith?",
+        "Quem é Morty Smith?",
+        "Me fale sobre Morty Smith."
+    ],
+    "What is Adventure Time?": [
+        "Explain Adventure Time.",
+        "Define Adventure Time.",
+        "What does Adventure Time mean?",
+        "O que é Adventure Time?",
+        "Explique Adventure Time.",
+        "O que significa Adventure Time?"
+    ],
+    "Who is Finn the Human?": [
+        "Tell me about Finn the Human.",
+        "Who exactly is Finn the Human?",
+        "Quem é Finn the Human?",
+        "Me fale sobre Finn the Human."
+    ],
+    "Who is Jake the Dog?": [
+        "Tell me about Jake the Dog.",
+        "Who exactly is Jake the Dog?",
+        "Quem é Jake the Dog?",
+        "Me fale sobre Jake the Dog."
+    ],
+    "What is Regular Show?": [
+        "Explain Regular Show.",
+        "Define Regular Show.",
+        "What does Regular Show mean?",
+        "O que é Regular Show?",
+        "Explique Regular Show.",
+        "O que significa Regular Show?"
+    ],
+    "Who is Mordecai?": [
+        "Tell me about Mordecai.",
+        "Who exactly is Mordecai?",
+        "Quem é Mordecai?",
+        "Me fale sobre Mordecai."
+    ],
+    "Who is Rigby?": [
+        "Tell me about Rigby.",
+        "Who exactly is Rigby?",
+        "Quem é Rigby?",
+        "Me fale sobre Rigby."
+    ],
+    "What is Gravity Falls?": [
+        "Explain Gravity Falls.",
+        "Define Gravity Falls.",
+        "What does Gravity Falls mean?",
+        "O que é Gravity Falls?",
+        "Explique Gravity Falls.",
+        "O que significa Gravity Falls?"
+    ],
+    "Who is Dipper Pines?": [
+        "Tell me about Dipper Pines.",
+        "Who exactly is Dipper Pines?",
+        "Quem é Dipper Pines?",
+        "Me fale sobre Dipper Pines."
+    ],
+    "Who is Mabel Pines?": [
+        "Tell me about Mabel Pines.",
+        "Who exactly is Mabel Pines?",
+        "Quem é Mabel Pines?",
+        "Me fale sobre Mabel Pines."
+    ],
+    "What is Ben 10?": [
+        "Explain Ben 10.",
+        "Define Ben 10.",
+        "What does Ben 10 mean?",
+        "O que é Ben 10?",
+        "Explique Ben 10.",
+        "O que significa Ben 10?"
+    ],
+    "Who is Ben Tennyson?": [
+        "Tell me about Ben Tennyson.",
+        "Who exactly is Ben Tennyson?",
+        "Quem é Ben Tennyson?",
+        "Me fale sobre Ben Tennyson."
+    ],
+    "What is Scooby-Doo?": [
+        "Explain Scooby-Doo.",
+        "Define Scooby-Doo.",
+        "What does Scooby-Doo mean?",
+        "O que é Scooby-Doo?",
+        "Explique Scooby-Doo.",
+        "O que significa Scooby-Doo?"
+    ],
+    "Who is Scooby-Doo?": [
+        "Tell me about Scooby-Doo.",
+        "Who exactly is Scooby-Doo?",
+        "Quem é Scooby-Doo?",
+        "Me fale sobre Scooby-Doo."
+    ],
+    "What is SpongeBob SquarePants?": [
+        "Explain SpongeBob SquarePants.",
+        "Define SpongeBob SquarePants.",
+        "What does SpongeBob SquarePants mean?",
+        "O que é SpongeBob SquarePants?",
+        "Explique SpongeBob SquarePants.",
+        "O que significa SpongeBob SquarePants?"
+    ],
+    "Who is SpongeBob SquarePants?": [
+        "Tell me about SpongeBob SquarePants.",
+        "Who exactly is SpongeBob SquarePants?",
+        "Quem é SpongeBob SquarePants?",
+        "Me fale sobre SpongeBob SquarePants."
+    ],
+    "Who is Patrick Star?": [
+        "Tell me about Patrick Star.",
+        "Who exactly is Patrick Star?",
+        "Quem é Patrick Star?",
+        "Me fale sobre Patrick Star."
+    ],
+    "Who is Aang?": [
+        "Tell me about Aang.",
+        "Who exactly is Aang?",
+        "Quem é Aang?",
+        "Me fale sobre Aang."
+    ],
+    "Who is Zuko?": [
+        "Tell me about Zuko.",
+        "Who exactly is Zuko?",
+        "Quem é Zuko?",
+        "Me fale sobre Zuko."
+    ],
+    "What is Cyberpunk Edgerunners?": [
+        "Explain Cyberpunk Edgerunners.",
+        "Define Cyberpunk Edgerunners.",
+        "What does Cyberpunk Edgerunners mean?",
+        "O que é Cyberpunk Edgerunners?",
+        "Explique Cyberpunk Edgerunners.",
+        "O que significa Cyberpunk Edgerunners?"
+    ],
+    "Who is David Martinez?": [
+        "Tell me about David Martinez.",
+        "Who exactly is David Martinez?",
+        "Quem é David Martinez?",
+        "Me fale sobre David Martinez."
+    ],
+    "What is Squid Game?": [
+        "Explain Squid Game.",
+        "Define Squid Game.",
+        "What does Squid Game mean?",
+        "O que é Squid Game?",
+        "Explique Squid Game.",
+        "O que significa Squid Game?"
+    ],
+    "What is Wednesday?": [
+        "Explain Wednesday.",
+        "Define Wednesday.",
+        "What does Wednesday mean?",
+        "O que é Wednesday?",
+        "Explique Wednesday.",
+        "O que significa Wednesday?"
+    ],
+    "Who is Wednesday Addams?": [
+        "Tell me about Wednesday Addams.",
+        "Who exactly is Wednesday Addams?",
+        "Quem é Wednesday Addams?",
+        "Me fale sobre Wednesday Addams."
+    ],
+    "What is The Addams Family?": [
+        "Explain The Addams Family.",
+        "Define The Addams Family.",
+        "What does The Addams Family mean?",
+        "O que é The Addams Family?",
+        "Explique The Addams Family.",
+        "O que significa The Addams Family?"
+    ],
+    "Who is Vecna?": [
+        "Tell me about Vecna.",
+        "Who exactly is Vecna?",
+        "Quem é Vecna?",
+        "Me fale sobre Vecna."
+    ],
+    "What is The Mandalorian?": [
+        "Explain The Mandalorian.",
+        "Define The Mandalorian.",
+        "What does The Mandalorian mean?",
+        "O que é The Mandalorian?",
+        "Explique The Mandalorian.",
+        "O que significa The Mandalorian?"
+    ],
+    "Who is Grogu?": [
+        "Tell me about Grogu.",
+        "Who exactly is Grogu?",
+        "Quem é Grogu?",
+        "Me fale sobre Grogu."
+    ],
+    "What is Star Trek?": [
+        "Explain Star Trek.",
+        "Define Star Trek.",
+        "What does Star Trek mean?",
+        "O que é Star Trek?",
+        "Explique Star Trek.",
+        "O que significa Star Trek?"
+    ],
+    "Who is Captain Kirk?": [
+        "Tell me about Captain Kirk.",
+        "Who exactly is Captain Kirk?",
+        "Quem é Captain Kirk?",
+        "Me fale sobre Captain Kirk."
+    ],
+    "What is Doctor Who?": [
+        "Explain Doctor Who.",
+        "Define Doctor Who.",
+        "What does Doctor Who mean?",
+        "O que é Doctor Who?",
+        "Explique Doctor Who.",
+        "O que significa Doctor Who?"
+    ],
+    "Who is The Doctor?": [
+        "Tell me about The Doctor.",
+        "Who exactly is The Doctor?",
+        "Quem é The Doctor?",
+        "Me fale sobre The Doctor."
+    ],
+    "Who is Freddy Fazbear?": [
+        "Tell me about Freddy Fazbear.",
+        "Who exactly is Freddy Fazbear?",
+        "Quem é Freddy Fazbear?",
+        "Me fale sobre Freddy Fazbear."
+    ],
+    "What is Poppy Playtime?": [
+        "Explain Poppy Playtime.",
+        "Define Poppy Playtime.",
+        "What does Poppy Playtime mean?",
+        "O que é Poppy Playtime?",
+        "Explique Poppy Playtime.",
+        "O que significa Poppy Playtime?"
+    ],
+    "Who is Huggy Wuggy?": [
+        "Tell me about Huggy Wuggy.",
+        "Who exactly is Huggy Wuggy?",
+        "Quem é Huggy Wuggy?",
+        "Me fale sobre Huggy Wuggy."
+    ],
+    "What is football?": [
+        "Explain football.",
+        "Define football.",
+        "What does football mean?",
+        "O que é football?",
+        "Explique football.",
+        "O que significa football?"
+    ],
+    "What is offside in football?": [
+        "Explain offside in football.",
+        "Define offside in football.",
+        "What does offside in football mean?",
+        "O que é offside in football?",
+        "Explique offside in football.",
+        "O que significa offside in football?"
+    ],
+    "What is a penalty kick?": [
+        "Explain a penalty kick.",
+        "Define a penalty kick.",
+        "What does a penalty kick mean?",
+        "O que é a penalty kick?",
+        "Explique a penalty kick.",
+        "O que significa a penalty kick?"
+    ],
+    "What is a free kick?": [
+        "Explain a free kick.",
+        "Define a free kick.",
+        "What does a free kick mean?",
+        "O que é a free kick?",
+        "Explique a free kick.",
+        "O que significa a free kick?"
+    ],
+    "What is a corner kick?": [
+        "Explain a corner kick.",
+        "Define a corner kick.",
+        "What does a corner kick mean?",
+        "O que é a corner kick?",
+        "Explique a corner kick.",
+        "O que significa a corner kick?"
+    ],
+    "What is a throw-in?": [
+        "Explain a throw-in.",
+        "Define a throw-in.",
+        "What does a throw-in mean?",
+        "O que é a throw-in?",
+        "Explique a throw-in.",
+        "O que significa a throw-in?"
+    ],
+    "What is added time?": [
+        "Explain added time.",
+        "Define added time.",
+        "What does added time mean?",
+        "O que é added time?",
+        "Explique added time.",
+        "O que significa added time?"
+    ],
+    "What is VAR?": [
+        "Explain VAR.",
+        "Define VAR.",
+        "What does VAR mean?",
+        "O que é VAR?",
+        "Explique VAR.",
+        "O que significa VAR?"
+    ],
+    "What is FIFA?": [
+        "Explain FIFA.",
+        "Define FIFA.",
+        "What does FIFA mean?",
+        "O que é FIFA?",
+        "Explique FIFA.",
+        "O que significa FIFA?"
+    ],
+    "What is UEFA?": [
+        "Explain UEFA.",
+        "Define UEFA.",
+        "What does UEFA mean?",
+        "O que é UEFA?",
+        "Explique UEFA.",
+        "O que significa UEFA?"
+    ],
+    "What is the Premier League?": [
+        "Explain the Premier League.",
+        "Define the Premier League.",
+        "What does the Premier League mean?",
+        "O que é the Premier League?",
+        "Explique the Premier League.",
+        "O que significa the Premier League?"
+    ],
+    "What is La Liga?": [
+        "Explain La Liga.",
+        "Define La Liga.",
+        "What does La Liga mean?",
+        "O que é La Liga?",
+        "Explique La Liga.",
+        "O que significa La Liga?"
+    ],
+    "What is Serie A?": [
+        "Explain Serie A.",
+        "Define Serie A.",
+        "What does Serie A mean?",
+        "O que é Serie A?",
+        "Explique Serie A.",
+        "O que significa Serie A?"
+    ],
+    "What is the Bundesliga?": [
+        "Explain the Bundesliga.",
+        "Define the Bundesliga.",
+        "What does the Bundesliga mean?",
+        "O que é the Bundesliga?",
+        "Explique the Bundesliga.",
+        "O que significa the Bundesliga?"
+    ],
+    "What is Ligue 1?": [
+        "Explain Ligue 1.",
+        "Define Ligue 1.",
+        "What does Ligue 1 mean?",
+        "O que é Ligue 1?",
+        "Explique Ligue 1.",
+        "O que significa Ligue 1?"
+    ],
+    "What is the Copa Libertadores?": [
+        "Explain the Copa Libertadores.",
+        "Define the Copa Libertadores.",
+        "What does the Copa Libertadores mean?",
+        "O que é the Copa Libertadores?",
+        "Explique the Copa Libertadores.",
+        "O que significa the Copa Libertadores?"
+    ],
+    "What is the Copa America?": [
+        "Explain the Copa America.",
+        "Define the Copa America.",
+        "What does the Copa America mean?",
+        "O que é the Copa America?",
+        "Explique the Copa America.",
+        "O que significa the Copa America?"
+    ],
+    "What is a hat-trick?": [
+        "Explain a hat-trick.",
+        "Define a hat-trick.",
+        "What does a hat-trick mean?",
+        "O que é a hat-trick?",
+        "Explique a hat-trick.",
+        "O que significa a hat-trick?"
+    ],
+    "What is a clean sheet?": [
+        "Explain a clean sheet.",
+        "Define a clean sheet.",
+        "What does a clean sheet mean?",
+        "O que é a clean sheet?",
+        "Explique a clean sheet.",
+        "O que significa a clean sheet?"
+    ],
+    "What is a striker?": [
+        "Explain a striker.",
+        "Define a striker.",
+        "What does a striker mean?",
+        "O que é a striker?",
+        "Explique a striker.",
+        "O que significa a striker?"
+    ],
+    "What is a midfielder?": [
+        "Explain a midfielder.",
+        "Define a midfielder.",
+        "What does a midfielder mean?",
+        "O que é a midfielder?",
+        "Explique a midfielder.",
+        "O que significa a midfielder?"
+    ],
+    "What is a defender?": [
+        "Explain a defender.",
+        "Define a defender.",
+        "What does a defender mean?",
+        "O que é a defender?",
+        "Explique a defender.",
+        "O que significa a defender?"
+    ],
+    "What is a goalkeeper?": [
+        "Explain a goalkeeper.",
+        "Define a goalkeeper.",
+        "What does a goalkeeper mean?",
+        "O que é a goalkeeper?",
+        "Explique a goalkeeper.",
+        "O que significa a goalkeeper?"
+    ],
+    "What is a yellow card?": [
+        "Explain a yellow card.",
+        "Define a yellow card.",
+        "What does a yellow card mean?",
+        "O que é a yellow card?",
+        "Explique a yellow card.",
+        "O que significa a yellow card?"
+    ],
+    "What is a red card?": [
+        "Explain a red card.",
+        "Define a red card.",
+        "What does a red card mean?",
+        "O que é a red card?",
+        "Explique a red card.",
+        "O que significa a red card?"
+    ],
+    "What is extra time?": [
+        "Explain extra time.",
+        "Define extra time.",
+        "What does extra time mean?",
+        "O que é extra time?",
+        "Explique extra time.",
+        "O que significa extra time?"
+    ],
+    "What is a penalty shootout?": [
+        "Explain a penalty shootout.",
+        "Define a penalty shootout.",
+        "What does a penalty shootout mean?",
+        "O que é a penalty shootout?",
+        "Explique a penalty shootout.",
+        "O que significa a penalty shootout?"
+    ],
+    "What is a derby?": [
+        "Explain a derby.",
+        "Define a derby.",
+        "What does a derby mean?",
+        "O que é a derby?",
+        "Explique a derby.",
+        "O que significa a derby?"
+    ],
+    "What is a football club?": [
+        "Explain a football club.",
+        "Define a football club.",
+        "What does a football club mean?",
+        "O que é a football club?",
+        "Explique a football club.",
+        "O que significa a football club?"
+    ],
+    "What is promotion in football?": [
+        "Explain promotion in football.",
+        "Define promotion in football.",
+        "What does promotion in football mean?",
+        "O que é promotion in football?",
+        "Explique promotion in football.",
+        "O que significa promotion in football?"
+    ],
+    "What is relegation in football?": [
+        "Explain relegation in football.",
+        "Define relegation in football.",
+        "What does relegation in football mean?",
+        "O que é relegation in football?",
+        "Explique relegation in football.",
+        "O que significa relegation in football?"
+    ],
+    "Who is Pelé?": [
+        "Tell me about Pelé.",
+        "Who exactly is Pelé?",
+        "Quem é Pelé?",
+        "Me fale sobre Pelé."
+    ],
+    "Who is Diego Maradona?": [
+        "Tell me about Diego Maradona.",
+        "Who exactly is Diego Maradona?",
+        "Quem é Diego Maradona?",
+        "Me fale sobre Diego Maradona."
+    ],
+    "Who is Lionel Messi?": [
+        "Tell me about Lionel Messi.",
+        "Who exactly is Lionel Messi?",
+        "Quem é Lionel Messi?",
+        "Me fale sobre Lionel Messi."
+    ],
+    "Who is Cristiano Ronaldo?": [
+        "Tell me about Cristiano Ronaldo.",
+        "Who exactly is Cristiano Ronaldo?",
+        "Quem é Cristiano Ronaldo?",
+        "Me fale sobre Cristiano Ronaldo."
+    ],
+    "Who is Neymar?": [
+        "Tell me about Neymar.",
+        "Who exactly is Neymar?",
+        "Quem é Neymar?",
+        "Me fale sobre Neymar."
+    ],
+    "Who is Ronaldinho?": [
+        "Tell me about Ronaldinho.",
+        "Who exactly is Ronaldinho?",
+        "Quem é Ronaldinho?",
+        "Me fale sobre Ronaldinho."
+    ],
+    "Who is Ronaldo Nazário?": [
+        "Tell me about Ronaldo Nazário.",
+        "Who exactly is Ronaldo Nazário?",
+        "Quem é Ronaldo Nazário?",
+        "Me fale sobre Ronaldo Nazário."
+    ],
+    "Who is Zinedine Zidane?": [
+        "Tell me about Zinedine Zidane.",
+        "Who exactly is Zinedine Zidane?",
+        "Quem é Zinedine Zidane?",
+        "Me fale sobre Zinedine Zidane."
+    ],
+    "Who is Johan Cruyff?": [
+        "Tell me about Johan Cruyff.",
+        "Who exactly is Johan Cruyff?",
+        "Quem é Johan Cruyff?",
+        "Me fale sobre Johan Cruyff."
+    ],
+    "Who is Franz Beckenbauer?": [
+        "Tell me about Franz Beckenbauer.",
+        "Who exactly is Franz Beckenbauer?",
+        "Quem é Franz Beckenbauer?",
+        "Me fale sobre Franz Beckenbauer."
+    ],
+    "Who is Kylian Mbappé?": [
+        "Tell me about Kylian Mbappé.",
+        "Who exactly is Kylian Mbappé?",
+        "Quem é Kylian Mbappé?",
+        "Me fale sobre Kylian Mbappé."
+    ],
+    "Who is Erling Haaland?": [
+        "Tell me about Erling Haaland.",
+        "Who exactly is Erling Haaland?",
+        "Quem é Erling Haaland?",
+        "Me fale sobre Erling Haaland."
+    ],
+    "Who is Vinicius Junior?": [
+        "Tell me about Vinicius Junior.",
+        "Who exactly is Vinicius Junior?",
+        "Quem é Vinicius Junior?",
+        "Me fale sobre Vinicius Junior."
+    ],
+    "Who is Jude Bellingham?": [
+        "Tell me about Jude Bellingham.",
+        "Who exactly is Jude Bellingham?",
+        "Quem é Jude Bellingham?",
+        "Me fale sobre Jude Bellingham."
+    ],
+    "What is FC Barcelona?": [
+        "Explain FC Barcelona.",
+        "Define FC Barcelona.",
+        "What does FC Barcelona mean?",
+        "O que é FC Barcelona?",
+        "Explique FC Barcelona.",
+        "O que significa FC Barcelona?"
+    ],
+    "What is Real Madrid?": [
+        "Explain Real Madrid.",
+        "Define Real Madrid.",
+        "What does Real Madrid mean?",
+        "O que é Real Madrid?",
+        "Explique Real Madrid.",
+        "O que significa Real Madrid?"
+    ],
+    "What is Manchester United?": [
+        "Explain Manchester United.",
+        "Define Manchester United.",
+        "What does Manchester United mean?",
+        "O que é Manchester United?",
+        "Explique Manchester United.",
+        "O que significa Manchester United?"
+    ],
+    "What is Manchester City?": [
+        "Explain Manchester City.",
+        "Define Manchester City.",
+        "What does Manchester City mean?",
+        "O que é Manchester City?",
+        "Explique Manchester City.",
+        "O que significa Manchester City?"
+    ],
+    "What is Liverpool FC?": [
+        "Explain Liverpool FC.",
+        "Define Liverpool FC.",
+        "What does Liverpool FC mean?",
+        "O que é Liverpool FC?",
+        "Explique Liverpool FC.",
+        "O que significa Liverpool FC?"
+    ],
+    "What is Arsenal FC?": [
+        "Explain Arsenal FC.",
+        "Define Arsenal FC.",
+        "What does Arsenal FC mean?",
+        "O que é Arsenal FC?",
+        "Explique Arsenal FC.",
+        "O que significa Arsenal FC?"
+    ],
+    "What is Chelsea FC?": [
+        "Explain Chelsea FC.",
+        "Define Chelsea FC.",
+        "What does Chelsea FC mean?",
+        "O que é Chelsea FC?",
+        "Explique Chelsea FC.",
+        "O que significa Chelsea FC?"
+    ],
+    "What is Bayern Munich?": [
+        "Explain Bayern Munich.",
+        "Define Bayern Munich.",
+        "What does Bayern Munich mean?",
+        "O que é Bayern Munich?",
+        "Explique Bayern Munich.",
+        "O que significa Bayern Munich?"
+    ],
+    "What is Juventus?": [
+        "Explain Juventus.",
+        "Define Juventus.",
+        "What does Juventus mean?",
+        "O que é Juventus?",
+        "Explique Juventus.",
+        "O que significa Juventus?"
+    ],
+    "What is AC Milan?": [
+        "Explain AC Milan.",
+        "Define AC Milan.",
+        "What does AC Milan mean?",
+        "O que é AC Milan?",
+        "Explique AC Milan.",
+        "O que significa AC Milan?"
+    ],
+    "What is Inter Milan?": [
+        "Explain Inter Milan.",
+        "Define Inter Milan.",
+        "What does Inter Milan mean?",
+        "O que é Inter Milan?",
+        "Explique Inter Milan.",
+        "O que significa Inter Milan?"
+    ],
+    "What is Paris Saint-Germain?": [
+        "Explain Paris Saint-Germain.",
+        "Define Paris Saint-Germain.",
+        "What does Paris Saint-Germain mean?",
+        "O que é Paris Saint-Germain?",
+        "Explique Paris Saint-Germain.",
+        "O que significa Paris Saint-Germain?"
+    ],
+    "What is Santos FC?": [
+        "Explain Santos FC.",
+        "Define Santos FC.",
+        "What does Santos FC mean?",
+        "O que é Santos FC?",
+        "Explique Santos FC.",
+        "O que significa Santos FC?"
+    ],
+    "What is Flamengo?": [
+        "Explain Flamengo.",
+        "Define Flamengo.",
+        "What does Flamengo mean?",
+        "O que é Flamengo?",
+        "Explique Flamengo.",
+        "O que significa Flamengo?"
+    ],
+    "What is Corinthians?": [
+        "Explain Corinthians.",
+        "Define Corinthians.",
+        "What does Corinthians mean?",
+        "O que é Corinthians?",
+        "Explique Corinthians.",
+        "O que significa Corinthians?"
+    ],
+    "What is Palmeiras?": [
+        "Explain Palmeiras.",
+        "Define Palmeiras.",
+        "What does Palmeiras mean?",
+        "O que é Palmeiras?",
+        "Explique Palmeiras.",
+        "O que significa Palmeiras?"
+    ],
+    "What is São Paulo FC?": [
+        "Explain São Paulo FC.",
+        "Define São Paulo FC.",
+        "What does São Paulo FC mean?",
+        "O que é São Paulo FC?",
+        "Explique São Paulo FC.",
+        "O que significa São Paulo FC?"
+    ],
+    "What is Grêmio?": [
+        "Explain Grêmio.",
+        "Define Grêmio.",
+        "What does Grêmio mean?",
+        "O que é Grêmio?",
+        "Explique Grêmio.",
+        "O que significa Grêmio?"
+    ],
+    "What is Internacional?": [
+        "Explain Internacional.",
+        "Define Internacional.",
+        "What does Internacional mean?",
+        "O que é Internacional?",
+        "Explique Internacional.",
+        "O que significa Internacional?"
+    ],
+    "What is Botafogo?": [
+        "Explain Botafogo.",
+        "Define Botafogo.",
+        "What does Botafogo mean?",
+        "O que é Botafogo?",
+        "Explique Botafogo.",
+        "O que significa Botafogo?"
+    ],
+    "What is Fluminense?": [
+        "Explain Fluminense.",
+        "Define Fluminense.",
+        "What does Fluminense mean?",
+        "O que é Fluminense?",
+        "Explique Fluminense.",
+        "O que significa Fluminense?"
+    ],
+    "What is Vasco da Gama?": [
+        "Explain Vasco da Gama.",
+        "Define Vasco da Gama.",
+        "What does Vasco da Gama mean?",
+        "O que é Vasco da Gama?",
+        "Explique Vasco da Gama.",
+        "O que significa Vasco da Gama?"
+    ],
+    "What is the Ballon d'Or?": [
+        "Explain the Ballon d'Or.",
+        "Define the Ballon d'Or.",
+        "What does the Ballon d'Or mean?",
+        "O que é the Ballon d'Or?",
+        "Explique the Ballon d'Or.",
+        "O que significa the Ballon d'Or?"
+    ],
+    "What is the Golden Boot?": [
+        "Explain the Golden Boot.",
+        "Define the Golden Boot.",
+        "What does the Golden Boot mean?",
+        "O que é the Golden Boot?",
+        "Explique the Golden Boot.",
+        "O que significa the Golden Boot?"
+    ],
+    "What is a football formation?": [
+        "Explain a football formation.",
+        "Define a football formation.",
+        "What does a football formation mean?",
+        "O que é a football formation?",
+        "Explique a football formation.",
+        "O que significa a football formation?"
+    ],
+    "What is a 4-4-2 formation?": [
+        "Explain a 4-4-2 formation.",
+        "Define a 4-4-2 formation.",
+        "What does a 4-4-2 formation mean?",
+        "O que é a 4-4-2 formation?",
+        "Explique a 4-4-2 formation.",
+        "O que significa a 4-4-2 formation?"
+    ],
+    "What is a 4-3-3 formation?": [
+        "Explain a 4-3-3 formation.",
+        "Define a 4-3-3 formation.",
+        "What does a 4-3-3 formation mean?",
+        "O que é a 4-3-3 formation?",
+        "Explique a 4-3-3 formation.",
+        "O que significa a 4-3-3 formation?"
+    ],
+    "What is tiki-taka?": [
+        "Explain tiki-taka.",
+        "Define tiki-taka.",
+        "What does tiki-taka mean?",
+        "O que é tiki-taka?",
+        "Explique tiki-taka.",
+        "O que significa tiki-taka?"
+    ],
+    "What is total football?": [
+        "Explain total football.",
+        "Define total football.",
+        "What does total football mean?",
+        "O que é total football?",
+        "Explique total football.",
+        "O que significa total football?"
+    ],
+    "What is pressing in football?": [
+        "Explain pressing in football.",
+        "Define pressing in football.",
+        "What does pressing in football mean?",
+        "O que é pressing in football?",
+        "Explique pressing in football.",
+        "O que significa pressing in football?"
+    ],
+    "What is possession football?": [
+        "Explain possession football.",
+        "Define possession football.",
+        "What does possession football mean?",
+        "O que é possession football?",
+        "Explique possession football.",
+        "O que significa possession football?"
+    ],
+    "What is a counterattack?": [
+        "Explain a counterattack.",
+        "Define a counterattack.",
+        "What does a counterattack mean?",
+        "O que é a counterattack?",
+        "Explique a counterattack.",
+        "O que significa a counterattack?"
+    ],
+    "What is a bicycle kick?": [
+        "Explain a bicycle kick.",
+        "Define a bicycle kick.",
+        "What does a bicycle kick mean?",
+        "O que é a bicycle kick?",
+        "Explique a bicycle kick.",
+        "O que significa a bicycle kick?"
+    ],
+    "What is a football manager?": [
+        "Explain a football manager.",
+        "Define a football manager.",
+        "What does a football manager mean?",
+        "O que é a football manager?",
+        "Explique a football manager.",
+        "O que significa a football manager?"
+    ],
+    "What is a football academy?": [
+        "Explain a football academy.",
+        "Define a football academy.",
+        "What does a football academy mean?",
+        "O que é a football academy?",
+        "Explique a football academy.",
+        "O que significa a football academy?"
+    ],
+    "What is a friendly match?": [
+        "Explain a friendly match.",
+        "Define a friendly match.",
+        "What does a friendly match mean?",
+        "O que é a friendly match?",
+        "Explique a friendly match.",
+        "O que significa a friendly match?"
+    ],
+    "Who is Michael Jordan?": [
+        "Tell me about Michael Jordan.",
+        "Who exactly is Michael Jordan?",
+        "Quem é Michael Jordan?",
+        "Me fale sobre Michael Jordan."
+    ],
+    "Who is LeBron James?": [
+        "Tell me about LeBron James.",
+        "Who exactly is LeBron James?",
+        "Quem é LeBron James?",
+        "Me fale sobre LeBron James."
+    ],
+    "Who is Kobe Bryant?": [
+        "Tell me about Kobe Bryant.",
+        "Who exactly is Kobe Bryant?",
+        "Quem é Kobe Bryant?",
+        "Me fale sobre Kobe Bryant."
+    ],
+    "What is the NBA?": [
+        "Explain the NBA.",
+        "Define the NBA.",
+        "What does the NBA mean?",
+        "O que é the NBA?",
+        "Explique the NBA.",
+        "O que significa the NBA?"
+    ],
+    "What is basketball?": [
+        "Explain basketball.",
+        "Define basketball.",
+        "What does basketball mean?",
+        "O que é basketball?",
+        "Explique basketball.",
+        "O que significa basketball?"
+    ],
+    "What is a slam dunk?": [
+        "Explain a slam dunk.",
+        "Define a slam dunk.",
+        "What does a slam dunk mean?",
+        "O que é a slam dunk?",
+        "Explique a slam dunk.",
+        "O que significa a slam dunk?"
+    ],
+    "What is a three-pointer?": [
+        "Explain a three-pointer.",
+        "Define a three-pointer.",
+        "What does a three-pointer mean?",
+        "O que é a three-pointer?",
+        "Explique a three-pointer.",
+        "O que significa a three-pointer?"
+    ],
+    "Who is Stephen Curry?": [
+        "Tell me about Stephen Curry.",
+        "Who exactly is Stephen Curry?",
+        "Quem é Stephen Curry?",
+        "Me fale sobre Stephen Curry."
+    ],
+    "Who is Shaquille O'Neal?": [
+        "Tell me about Shaquille O'Neal.",
+        "Who exactly is Shaquille O'Neal?",
+        "Quem é Shaquille O'Neal?",
+        "Me fale sobre Shaquille O'Neal."
+    ],
+    "What is tennis?": [
+        "Explain tennis.",
+        "Define tennis.",
+        "What does tennis mean?",
+        "O que é tennis?",
+        "Explique tennis.",
+        "O que significa tennis?"
+    ],
+    "Who is Roger Federer?": [
+        "Tell me about Roger Federer.",
+        "Who exactly is Roger Federer?",
+        "Quem é Roger Federer?",
+        "Me fale sobre Roger Federer."
+    ],
+    "Who is Rafael Nadal?": [
+        "Tell me about Rafael Nadal.",
+        "Who exactly is Rafael Nadal?",
+        "Quem é Rafael Nadal?",
+        "Me fale sobre Rafael Nadal."
+    ],
+    "Who is Novak Djokovic?": [
+        "Tell me about Novak Djokovic.",
+        "Who exactly is Novak Djokovic?",
+        "Quem é Novak Djokovic?",
+        "Me fale sobre Novak Djokovic."
+    ],
+    "Who is Serena Williams?": [
+        "Tell me about Serena Williams.",
+        "Who exactly is Serena Williams?",
+        "Quem é Serena Williams?",
+        "Me fale sobre Serena Williams."
+    ],
+    "What is Wimbledon?": [
+        "Explain Wimbledon.",
+        "Define Wimbledon.",
+        "What does Wimbledon mean?",
+        "O que é Wimbledon?",
+        "Explique Wimbledon.",
+        "O que significa Wimbledon?"
+    ],
+    "What is Formula 1?": [
+        "Explain Formula 1.",
+        "Define Formula 1.",
+        "What does Formula 1 mean?",
+        "O que é Formula 1?",
+        "Explique Formula 1.",
+        "O que significa Formula 1?"
+    ],
+    "Who is Ayrton Senna?": [
+        "Tell me about Ayrton Senna.",
+        "Who exactly is Ayrton Senna?",
+        "Quem é Ayrton Senna?",
+        "Me fale sobre Ayrton Senna."
+    ],
+    "Who is Lewis Hamilton?": [
+        "Tell me about Lewis Hamilton.",
+        "Who exactly is Lewis Hamilton?",
+        "Quem é Lewis Hamilton?",
+        "Me fale sobre Lewis Hamilton."
+    ],
+    "Who is Max Verstappen?": [
+        "Tell me about Max Verstappen.",
+        "Who exactly is Max Verstappen?",
+        "Quem é Max Verstappen?",
+        "Me fale sobre Max Verstappen."
+    ],
+    "What is a pit stop?": [
+        "Explain a pit stop.",
+        "Define a pit stop.",
+        "What does a pit stop mean?",
+        "O que é a pit stop?",
+        "Explique a pit stop.",
+        "O que significa a pit stop?"
+    ],
+    "What is pole position?": [
+        "Explain pole position.",
+        "Define pole position.",
+        "What does pole position mean?",
+        "O que é pole position?",
+        "Explique pole position.",
+        "O que significa pole position?"
+    ],
+    "What is NASCAR?": [
+        "Explain NASCAR.",
+        "Define NASCAR.",
+        "What does NASCAR mean?",
+        "O que é NASCAR?",
+        "Explique NASCAR.",
+        "O que significa NASCAR?"
+    ],
+    "What is volleyball?": [
+        "Explain volleyball.",
+        "Define volleyball.",
+        "What does volleyball mean?",
+        "O que é volleyball?",
+        "Explique volleyball.",
+        "O que significa volleyball?"
+    ],
+    "What is beach volleyball?": [
+        "Explain beach volleyball.",
+        "Define beach volleyball.",
+        "What does beach volleyball mean?",
+        "O que é beach volleyball?",
+        "Explique beach volleyball.",
+        "O que significa beach volleyball?"
+    ],
+    "What is baseball?": [
+        "Explain baseball.",
+        "Define baseball.",
+        "What does baseball mean?",
+        "O que é baseball?",
+        "Explique baseball.",
+        "O que significa baseball?"
+    ],
+    "What is a home run?": [
+        "Explain a home run.",
+        "Define a home run.",
+        "What does a home run mean?",
+        "O que é a home run?",
+        "Explique a home run.",
+        "O que significa a home run?"
+    ],
+    "What is MLB?": [
+        "Explain MLB.",
+        "Define MLB.",
+        "What does MLB mean?",
+        "O que é MLB?",
+        "Explique MLB.",
+        "O que significa MLB?"
+    ],
+    "What is a strikeout?": [
+        "Explain a strikeout.",
+        "Define a strikeout.",
+        "What does a strikeout mean?",
+        "O que é a strikeout?",
+        "Explique a strikeout.",
+        "O que significa a strikeout?"
+    ],
+    "What is softball?": [
+        "Explain softball.",
+        "Define softball.",
+        "What does softball mean?",
+        "O que é softball?",
+        "Explique softball.",
+        "O que significa softball?"
+    ],
+    "What is golf?": [
+        "Explain golf.",
+        "Define golf.",
+        "What does golf mean?",
+        "O que é golf?",
+        "Explique golf.",
+        "O que significa golf?"
+    ],
+    "Who is Tiger Woods?": [
+        "Tell me about Tiger Woods.",
+        "Who exactly is Tiger Woods?",
+        "Quem é Tiger Woods?",
+        "Me fale sobre Tiger Woods."
+    ],
+    "What is a hole-in-one?": [
+        "Explain a hole-in-one.",
+        "Define a hole-in-one.",
+        "What does a hole-in-one mean?",
+        "O que é a hole-in-one?",
+        "Explique a hole-in-one.",
+        "O que significa a hole-in-one?"
+    ],
+    "What is the Masters Tournament?": [
+        "Explain the Masters Tournament.",
+        "Define the Masters Tournament.",
+        "What does the Masters Tournament mean?",
+        "O que é the Masters Tournament?",
+        "Explique the Masters Tournament.",
+        "O que significa the Masters Tournament?"
+    ],
+    "What is boxing?": [
+        "Explain boxing.",
+        "Define boxing.",
+        "What does boxing mean?",
+        "O que é boxing?",
+        "Explique boxing.",
+        "O que significa boxing?"
+    ],
+    "Who is Muhammad Ali?": [
+        "Tell me about Muhammad Ali.",
+        "Who exactly is Muhammad Ali?",
+        "Quem é Muhammad Ali?",
+        "Me fale sobre Muhammad Ali."
+    ],
+    "Who is Mike Tyson?": [
+        "Tell me about Mike Tyson.",
+        "Who exactly is Mike Tyson?",
+        "Quem é Mike Tyson?",
+        "Me fale sobre Mike Tyson."
+    ],
+    "What is a knockout?": [
+        "Explain a knockout.",
+        "Define a knockout.",
+        "What does a knockout mean?",
+        "O que é a knockout?",
+        "Explique a knockout.",
+        "O que significa a knockout?"
+    ],
+    "What is UFC?": [
+        "Explain UFC.",
+        "Define UFC.",
+        "What does UFC mean?",
+        "O que é UFC?",
+        "Explique UFC.",
+        "O que significa UFC?"
+    ],
+    "What is MMA?": [
+        "Explain MMA.",
+        "Define MMA.",
+        "What does MMA mean?",
+        "O que é MMA?",
+        "Explique MMA.",
+        "O que significa MMA?"
+    ],
+    "Who is Conor McGregor?": [
+        "Tell me about Conor McGregor.",
+        "Who exactly is Conor McGregor?",
+        "Quem é Conor McGregor?",
+        "Me fale sobre Conor McGregor."
+    ],
+    "Who is Jon Jones?": [
+        "Tell me about Jon Jones.",
+        "Who exactly is Jon Jones?",
+        "Quem é Jon Jones?",
+        "Me fale sobre Jon Jones."
+    ],
+    "Who is Anderson Silva?": [
+        "Tell me about Anderson Silva.",
+        "Who exactly is Anderson Silva?",
+        "Quem é Anderson Silva?",
+        "Me fale sobre Anderson Silva."
+    ],
+    "What is wrestling?": [
+        "Explain wrestling.",
+        "Define wrestling.",
+        "What does wrestling mean?",
+        "O que é wrestling?",
+        "Explique wrestling.",
+        "O que significa wrestling?"
+    ],
+    "What is WWE?": [
+        "Explain WWE.",
+        "Define WWE.",
+        "What does WWE mean?",
+        "O que é WWE?",
+        "Explique WWE.",
+        "O que significa WWE?"
+    ],
+    "Who is John Cena?": [
+        "Tell me about John Cena.",
+        "Who exactly is John Cena?",
+        "Quem é John Cena?",
+        "Me fale sobre John Cena."
+    ],
+    "Who is The Undertaker?": [
+        "Tell me about The Undertaker.",
+        "Who exactly is The Undertaker?",
+        "Quem é The Undertaker?",
+        "Me fale sobre The Undertaker."
+    ],
+    "What is the Paralympics?": [
+        "Explain the Paralympics.",
+        "Define the Paralympics.",
+        "What does the Paralympics mean?",
+        "O que é the Paralympics?",
+        "Explique the Paralympics.",
+        "O que significa the Paralympics?"
+    ],
+    "What is swimming?": [
+        "Explain swimming.",
+        "Define swimming.",
+        "What does swimming mean?",
+        "O que é swimming?",
+        "Explique swimming.",
+        "O que significa swimming?"
+    ],
+    "Who is Michael Phelps?": [
+        "Tell me about Michael Phelps.",
+        "Who exactly is Michael Phelps?",
+        "Quem é Michael Phelps?",
+        "Me fale sobre Michael Phelps."
+    ],
+    "What is a relay race?": [
+        "Explain a relay race.",
+        "Define a relay race.",
+        "What does a relay race mean?",
+        "O que é a relay race?",
+        "Explique a relay race.",
+        "O que significa a relay race?"
+    ],
+    "What is athletics?": [
+        "Explain athletics.",
+        "Define athletics.",
+        "What does athletics mean?",
+        "O que é athletics?",
+        "Explique athletics.",
+        "O que significa athletics?"
+    ],
+    "Who is Usain Bolt?": [
+        "Tell me about Usain Bolt.",
+        "Who exactly is Usain Bolt?",
+        "Quem é Usain Bolt?",
+        "Me fale sobre Usain Bolt."
+    ],
+    "What is a marathon?": [
+        "Explain a marathon.",
+        "Define a marathon.",
+        "What does a marathon mean?",
+        "O que é a marathon?",
+        "Explique a marathon.",
+        "O que significa a marathon?"
+    ],
+    "What is cycling?": [
+        "Explain cycling.",
+        "Define cycling.",
+        "What does cycling mean?",
+        "O que é cycling?",
+        "Explique cycling.",
+        "O que significa cycling?"
+    ],
+    "What is rugby?": [
+        "Explain rugby.",
+        "Define rugby.",
+        "What does rugby mean?",
+        "O que é rugby?",
+        "Explique rugby.",
+        "O que significa rugby?"
+    ],
+    "What is rugby union?": [
+        "Explain rugby union.",
+        "Define rugby union.",
+        "What does rugby union mean?",
+        "O que é rugby union?",
+        "Explique rugby union.",
+        "O que significa rugby union?"
+    ],
+    "What is rugby league?": [
+        "Explain rugby league.",
+        "Define rugby league.",
+        "What does rugby league mean?",
+        "O que é rugby league?",
+        "Explique rugby league.",
+        "O que significa rugby league?"
+    ],
+    "What is cricket?": [
+        "Explain cricket.",
+        "Define cricket.",
+        "What does cricket mean?",
+        "O que é cricket?",
+        "Explique cricket.",
+        "O que significa cricket?"
+    ],
+    "What is field hockey?": [
+        "Explain field hockey.",
+        "Define field hockey.",
+        "What does field hockey mean?",
+        "O que é field hockey?",
+        "Explique field hockey.",
+        "O que significa field hockey?"
+    ],
+    "What is ice hockey?": [
+        "Explain ice hockey.",
+        "Define ice hockey.",
+        "What does ice hockey mean?",
+        "O que é ice hockey?",
+        "Explique ice hockey.",
+        "O que significa ice hockey?"
+    ],
+    "What is the NHL?": [
+        "Explain the NHL.",
+        "Define the NHL.",
+        "What does the NHL mean?",
+        "O que é the NHL?",
+        "Explique the NHL.",
+        "O que significa the NHL?"
+    ],
+    "What is esports?": [
+        "Explain esports.",
+        "Define esports.",
+        "What does esports mean?",
+        "O que é esports?",
+        "Explique esports.",
+        "O que significa esports?"
+    ],
+    "What is CS esports?": [
+        "Explain CS esports.",
+        "Define CS esports.",
+        "What does CS esports mean?",
+        "O que é CS esports?",
+        "Explique CS esports.",
+        "O que significa CS esports?"
+    ],
+    "What is the Super Bowl?": [
+        "Explain the Super Bowl.",
+        "Define the Super Bowl.",
+        "What does the Super Bowl mean?",
+        "O que é the Super Bowl?",
+        "Explique the Super Bowl.",
+        "O que significa the Super Bowl?"
+    ],
+    "What is American football?": [
+        "Explain American football.",
+        "Define American football.",
+        "What does American football mean?",
+        "O que é American football?",
+        "Explique American football.",
+        "O que significa American football?"
+    ],
+    "What is the NFL?": [
+        "Explain the NFL.",
+        "Define the NFL.",
+        "What does the NFL mean?",
+        "O que é the NFL?",
+        "Explique the NFL.",
+        "O que significa the NFL?"
+    ],
+    "Who is Tom Brady?": [
+        "Tell me about Tom Brady.",
+        "Who exactly is Tom Brady?",
+        "Quem é Tom Brady?",
+        "Me fale sobre Tom Brady."
+    ],
+    "What is a touchdown?": [
+        "Explain a touchdown.",
+        "Define a touchdown.",
+        "What does a touchdown mean?",
+        "O que é a touchdown?",
+        "Explique a touchdown.",
+        "O que significa a touchdown?"
+    ],
+    "What is badminton?": [
+        "Explain badminton.",
+        "Define badminton.",
+        "What does badminton mean?",
+        "O que é badminton?",
+        "Explique badminton.",
+        "O que significa badminton?"
+    ],
+    "What is table tennis?": [
+        "Explain table tennis.",
+        "Define table tennis.",
+        "What does table tennis mean?",
+        "O que é table tennis?",
+        "Explique table tennis.",
+        "O que significa table tennis?"
+    ],
+    "What is chess boxing?": [
+        "Explain chess boxing.",
+        "Define chess boxing.",
+        "What does chess boxing mean?",
+        "O que é chess boxing?",
+        "Explique chess boxing.",
+        "O que significa chess boxing?"
+    ],
+    "What is handball?": [
+        "Explain handball.",
+        "Define handball.",
+        "What does handball mean?",
+        "O que é handball?",
+        "Explique handball.",
+        "O que significa handball?"
+    ],
+    "What is fencing?": [
+        "Explain fencing.",
+        "Define fencing.",
+        "What does fencing mean?",
+        "O que é fencing?",
+        "Explique fencing.",
+        "O que significa fencing?"
+    ],
+    "What is judo?": [
+        "Explain judo.",
+        "Define judo.",
+        "What does judo mean?",
+        "O que é judo?",
+        "Explique judo.",
+        "O que significa judo?"
+    ],
+    "What is karate?": [
+        "Explain karate.",
+        "Define karate.",
+        "What does karate mean?",
+        "O que é karate?",
+        "Explique karate.",
+        "O que significa karate?"
+    ],
+    "What is taekwondo?": [
+        "Explain taekwondo.",
+        "Define taekwondo.",
+        "What does taekwondo mean?",
+        "O que é taekwondo?",
+        "Explique taekwondo.",
+        "O que significa taekwondo?"
+    ],
+    "What is surfing?": [
+        "Explain surfing.",
+        "Define surfing.",
+        "What does surfing mean?",
+        "O que é surfing?",
+        "Explique surfing.",
+        "O que significa surfing?"
+    ],
+    "What is skateboarding?": [
+        "Explain skateboarding.",
+        "Define skateboarding.",
+        "What does skateboarding mean?",
+        "O que é skateboarding?",
+        "Explique skateboarding.",
+        "O que significa skateboarding?"
+    ],
+    "What is snowboarding?": [
+        "Explain snowboarding.",
+        "Define snowboarding.",
+        "What does snowboarding mean?",
+        "O que é snowboarding?",
+        "Explique snowboarding.",
+        "O que significa snowboarding?"
+    ],
+    "What is climbing?": [
+        "Explain climbing.",
+        "Define climbing.",
+        "What does climbing mean?",
+        "O que é climbing?",
+        "Explique climbing.",
+        "O que significa climbing?"
+    ],
+    "What is rowing?": [
+        "Explain rowing.",
+        "Define rowing.",
+        "What does rowing mean?",
+        "O que é rowing?",
+        "Explique rowing.",
+        "O que significa rowing?"
+    ],
+    "What is archery?": [
+        "Explain archery.",
+        "Define archery.",
+        "What does archery mean?",
+        "O que é archery?",
+        "Explique archery.",
+        "O que significa archery?"
+    ],
+    "What is weightlifting?": [
+        "Explain weightlifting.",
+        "Define weightlifting.",
+        "What does weightlifting mean?",
+        "O que é weightlifting?",
+        "Explique weightlifting.",
+        "O que significa weightlifting?"
+    ],
+    "What is powerlifting?": [
+        "Explain powerlifting.",
+        "Define powerlifting.",
+        "What does powerlifting mean?",
+        "O que é powerlifting?",
+        "Explique powerlifting.",
+        "O que significa powerlifting?"
+    ],
+    "What is bodybuilding?": [
+        "Explain bodybuilding.",
+        "Define bodybuilding.",
+        "What does bodybuilding mean?",
+        "O que é bodybuilding?",
+        "Explique bodybuilding.",
+        "O que significa bodybuilding?"
+    ],
+    "Who was Alan Turing?": [
+        "Tell me about Alan Turing.",
+        "Quem foi Alan Turing?",
+        "Me fale sobre Alan Turing."
+    ],
+    "What does AI stand for?": [
+        "What does AI mean?",
+        "What is the meaning of AI?",
+        "O que significa AI?",
+        "O que AI quer dizer?",
+        "Qual o significado de AI?"
+    ],
+    "What does ML stand for?": [
+        "What does ML mean?",
+        "What is the meaning of ML?",
+        "O que significa ML?",
+        "O que ML quer dizer?",
+        "Qual o significado de ML?"
+    ],
+    "What is a frontend developer?": [
+        "Explain a frontend developer.",
+        "Define a frontend developer.",
+        "What does a frontend developer mean?",
+        "O que é a frontend developer?",
+        "Explique a frontend developer.",
+        "O que significa a frontend developer?"
+    ],
+    "What is a backend developer?": [
+        "Explain a backend developer.",
+        "Define a backend developer.",
+        "What does a backend developer mean?",
+        "O que é a backend developer?",
+        "Explique a backend developer.",
+        "O que significa a backend developer?"
+    ],
+    "What does SaaS stand for?": [
+        "What does SaaS mean?",
+        "What is the meaning of SaaS?",
+        "O que significa SaaS?",
+        "O que SaaS quer dizer?",
+        "Qual o significado de SaaS?"
+    ],
+    "What is malware?": [
+        "Explain malware.",
+        "Define malware.",
+        "What does malware mean?",
+        "O que é malware?",
+        "Explique malware.",
+        "O que significa malware?"
+    ],
+    "What is phishing?": [
+        "Explain phishing.",
+        "Define phishing.",
+        "What does phishing mean?",
+        "O que é phishing?",
+        "Explique phishing.",
+        "O que significa phishing?"
+    ],
+    "What is a firewall?": [
+        "Explain a firewall.",
+        "Define a firewall.",
+        "What does a firewall mean?",
+        "O que é a firewall?",
+        "Explique a firewall.",
+        "O que significa a firewall?"
+    ],
+    "What does VPN stand for?": [
+        "What does VPN mean?",
+        "What is the meaning of VPN?",
+        "O que significa VPN?",
+        "O que VPN quer dizer?",
+        "Qual o significado de VPN?"
+    ],
+    "What is an open-source project?": [
+        "Explain an open-source project.",
+        "Define an open-source project.",
+        "What does an open-source project mean?",
+        "O que é an open-source project?",
+        "Explique an open-source project.",
+        "O que significa an open-source project?"
+    ],
+    "What is cloud storage?": [
+        "Explain cloud storage.",
+        "Define cloud storage.",
+        "What does cloud storage mean?",
+        "O que é cloud storage?",
+        "Explique cloud storage.",
+        "O que significa cloud storage?"
+    ],
+    "What is IoT?": [
+        "Explain IoT.",
+        "Define IoT.",
+        "What does IoT mean?",
+        "O que é IoT?",
+        "Explique IoT.",
+        "O que significa IoT?"
+    ],
+    "What is blockchain?": [
+        "Explain blockchain.",
+        "Define blockchain.",
+        "What does blockchain mean?",
+        "O que é blockchain?",
+        "Explique blockchain.",
+        "O que significa blockchain?"
+    ],
+    "What is data mining?": [
+        "Explain data mining.",
+        "Define data mining.",
+        "What does data mining mean?",
+        "O que é data mining?",
+        "Explique data mining.",
+        "O que significa data mining?"
+    ],
+    "What does IP stand for in networking?": [
+        "What does IP  in networking mean?",
+        "What is the meaning of IP  in networking?",
+        "O que significa IP  in networking?",
+        "O que IP  in networking quer dizer?",
+        "Qual o significado de IP  in networking?"
+    ],
+    "What is SQL?": [
+        "Explain SQL.",
+        "Define SQL.",
+        "What does SQL mean?",
+        "O que é SQL?",
+        "Explique SQL.",
+        "O que significa SQL?"
+    ],
+    "What is NoSQL?": [
+        "Explain NoSQL.",
+        "Define NoSQL.",
+        "What does NoSQL mean?",
+        "O que é NoSQL?",
+        "Explique NoSQL.",
+        "O que significa NoSQL?"
+    ],
+    "What is Python used for?": [
+        "Explain Python used for.",
+        "Define Python used for.",
+        "What does Python used for mean?",
+        "O que é Python used for?",
+        "Explique Python used for.",
+        "O que significa Python used for?"
+    ],
+    "What is Docker?": [
+        "Explain Docker.",
+        "Define Docker.",
+        "What does Docker mean?",
+        "O que é Docker?",
+        "Explique Docker.",
+        "O que significa Docker?"
+    ],
+    "What is object-oriented programming?": [
+        "Explain object-oriented programming.",
+        "Define object-oriented programming.",
+        "What does object-oriented programming mean?",
+        "O que é object-oriented programming?",
+        "Explique object-oriented programming.",
+        "O que significa object-oriented programming?"
+    ],
+    "What does UI stand for?": [
+        "What does UI mean?",
+        "What is the meaning of UI?",
+        "O que significa UI?",
+        "O que UI quer dizer?",
+        "Qual o significado de UI?"
+    ],
+    "What does UX stand for?": [
+        "What does UX mean?",
+        "What is the meaning of UX?",
+        "O que significa UX?",
+        "O que UX quer dizer?",
+        "Qual o significado de UX?"
+    ],
+    "What is a bit?": [
+        "Explain a bit.",
+        "Define a bit.",
+        "What does a bit mean?",
+        "O que é a bit?",
+        "Explique a bit.",
+        "O que significa a bit?"
+    ],
+    "What is Big Data?": [
+        "Explain Big Data.",
+        "Define Big Data.",
+        "What does Big Data mean?",
+        "O que é Big Data?",
+        "Explique Big Data.",
+        "O que significa Big Data?"
+    ],
+    "What is automated testing?": [
+        "Explain automated testing.",
+        "Define automated testing.",
+        "What does automated testing mean?",
+        "O que é automated testing?",
+        "Explique automated testing.",
+        "O que significa automated testing?"
+    ],
+    "What does CI/CD stand for?": [
+        "What does CI/CD mean?",
+        "What is the meaning of CI/CD?",
+        "O que significa CI/CD?",
+        "O que CI/CD quer dizer?",
+        "Qual o significado de CI/CD?"
+    ]
+}
