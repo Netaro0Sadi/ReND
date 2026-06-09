@@ -23,7 +23,8 @@ from modules.commands import (
     about,
     packstats,
     find_knowledge,
-    find_alias
+    find_alias,
+    related
 )
 
 from modules.core.context_resolver import (
@@ -568,6 +569,14 @@ def handle_command(message):
     if command == "/why":
 
         return search_engine.why()
+
+    if command == "/related":
+
+        return related(
+            knowledge_base,
+            search_engine,
+            context
+        )
 
     if command == "/stats":
 

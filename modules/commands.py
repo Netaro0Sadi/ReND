@@ -1,6 +1,8 @@
 import os
 import json
 
+from modules.core.related_knowledge import get_related_questions
+
 
 PACKS_FOLDER = "data/knowledge_packs"
 ALIASES_FILE = "data/aliases.json"
@@ -122,6 +124,7 @@ def help_menu():
         "/reload - Reload knowledge base\n"
         "/debug - Show debug information\n"
         "/why - Show why ReND chose the last answer\n"
+        "/related - Show related knowledge\n"
         "/version - Show system version\n"
         "/edit - Edit a learned answer\n"
         "/remove - Remove a learned question\n"
@@ -140,6 +143,7 @@ def version():
 
         "Core Features:\n"
         "✓ Semantic Search\n"
+        "✓ Related Knowledge\n"
         "✓ Knowledge Base\n"
         "✓ Alias System\n"
         "✓ Context Resolver\n"
@@ -300,6 +304,7 @@ def about(
         "\nSystem:\n"
         f"- Personality: {personality}\n"
         "- Semantic Search: enabled\n"
+        "- Related Knowledge: enabled\n"
         "- Context Memory: enabled\n"
         "- Learning System: enabled\n"
         "- Debug Tools: enabled\n\n"
@@ -426,6 +431,7 @@ def find_knowledge(
 
     return result.strip()
 
+
 def find_alias(
     search_text,
     limit=20
@@ -489,6 +495,94 @@ def find_alias(
 
         result += (
             f"...and {len(results) - limit} more results."
+        )
+
+    return result.strip()
+
+
+def related(
+    knowledge_base,
+    search_engine,
+    context
+):
+
+    last_match = (
+        search_engine.last_successful_match
+    )
+
+    if not last_match:
+
+        return (
+            "No successful search found.\n\n"
+            "Ask a knowledge question first."
+        )
+
+    main_question = (
+        last_match.get(
+            "main_question"
+        )
+    )
+
+    if not main_question:
+
+        return (
+            "Could not determine the last "
+            "main question."
+        )
+
+    related_questions = (
+        get_related_questions(
+            current_question=main_question,
+
+            all_questions=
+            knowledge_base.all_questions(),
+
+            find_question_pack=
+            find_question_pack,
+
+            current_entity=
+            context.recall(
+                "last_entity"
+            ),
+
+            current_subject=
+            context.recall(
+                "last_subject"
+            ),
+
+            current_topic=
+            context.recall(
+                "last_topic"
+            ),
+
+            max_results=3,
+
+            search_engine=
+            search_engine
+        )
+    )
+
+    if not related_questions:
+
+        return (
+            "No related knowledge found."
+        )
+
+    result = (
+        "Related Knowledge\n\n"
+        f"Current Question:\n"
+        f"{main_question}\n\n"
+    )
+
+    for question in related_questions:
+
+        pack = find_question_pack(
+            question
+        )
+
+        result += (
+            f"• {question}\n"
+            f"  Pack: {pack}\n\n"
         )
 
     return result.strip()

@@ -2,6 +2,7 @@ import os
 import json
 import pickle
 import hashlib
+import time
 
 os.environ["HF_HUB_DISABLE_TELEMETRY"] = "1"
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
@@ -15,15 +16,34 @@ CACHE_FILE = "data/semantic_cache.pkl"
 MODEL_NAME = "paraphrase-multilingual-MiniLM-L12-v2"
 ALIASES_FILE = "data/aliases.json"
 PACKS_FOLDER = "data/knowledge_packs"
+PACK_INDEX = {}
 
-print("Loading ReND semantic model...")
+model = None
 
-model = SentenceTransformer(
-    MODEL_NAME
-)
 
-print("Semantic model loaded.")
+def get_model():
 
+    global model
+
+    if model is not None:
+        return model
+
+    start_model = time.time()
+
+    print(
+        "Loading ReND semantic model..."
+    )
+
+    model = SentenceTransformer(
+        MODEL_NAME
+    )
+
+    print(
+        f"Semantic model loaded in "
+        f"{time.time() - start_model:.2f}s"
+    )
+
+    return model
 
 def load_aliases():
 
@@ -80,16 +100,24 @@ def confidence_label(score):
 
     return "very low"
 
+def build_pack_index():
 
-def find_question_pack(question):
+    global PACK_INDEX
+
+    PACK_INDEX = {}
 
     if not os.path.exists(PACKS_FOLDER):
-        return None
+        return
 
     for file_name in os.listdir(PACKS_FOLDER):
 
         if not file_name.endswith(".json"):
             continue
+
+        pack_name = file_name.replace(
+            ".json",
+            ""
+        )
 
         file_path = os.path.join(
             PACKS_FOLDER,
@@ -106,18 +134,25 @@ def find_question_pack(question):
 
                 data = json.load(file)
 
-            if question in data:
+            for question in data.keys():
 
-                return file_name.replace(
-                    ".json",
-                    ""
-                )
+                PACK_INDEX[
+                    question
+                ] = pack_name
 
         except:
 
             pass
 
-    return None
+def find_question_pack(question):
+
+    if not PACK_INDEX:
+
+        build_pack_index()
+
+    return PACK_INDEX.get(
+        question
+    )
 
 def build_cache_key(questions):
 
@@ -205,7 +240,11 @@ class SemanticSearch:
 
     def update(self):
 
+        start_update = time.time()
+
         self.aliases = load_aliases()
+
+        build_pack_index()
 
         self.search_items = []
 
@@ -257,7 +296,7 @@ class SemanticSearch:
                     f"{len(self.questions)} search items..."
                 )
 
-                self.embeddings = model.encode(
+                self.embeddings = get_model().encode(
                     self.questions,
                     convert_to_tensor=True
                 )
@@ -271,6 +310,16 @@ class SemanticSearch:
 
             self.embeddings = None
 
+        print(
+            f"Semantic index updated in "
+            f"{time.time() - start_update:.2f}s"
+        )
+
+        print(
+            f"Search items indexed: "
+            f"{len(self.questions)}"
+        )
+
     def get_top_matches(
         self,
         question,
@@ -280,7 +329,7 @@ class SemanticSearch:
         if not self.questions:
             return []
 
-        question_embedding = model.encode(
+        question_embedding = get_model().encode(
             question,
             convert_to_tensor=True
         )
@@ -376,19 +425,42 @@ class SemanticSearch:
             main_entities
         )
 
+        match["accept_reason"] = "rejected"
+
         if match["type"] == "alias":
 
             if match["score"] < 0.45:
+
+                match[
+                    "accept_reason"
+                ] = "alias score below 0.45"
 
                 return False
 
             if alias_entity_overlap:
 
+                match[
+                    "accept_reason"
+                ] = (
+                    "alias entity overlap: "
+                    + ", ".join(
+                        sorted(alias_entity_overlap)
+                    )
+                )
+
                 return True
+
+            match[
+                "accept_reason"
+            ] = "alias without entity overlap"
 
             return False
 
         if match["score"] >= 0.85:
+
+            match[
+                "accept_reason"
+            ] = "main match score >= 0.85"
 
             return True
 
@@ -397,6 +469,16 @@ class SemanticSearch:
             and len(common_main_words) >= 2
         ):
 
+            match[
+                "accept_reason"
+            ] = (
+                "main match score >= 0.70 "
+                "and common words: "
+                + ", ".join(
+                    sorted(common_main_words)
+                )
+            )
+
             return True
 
         if (
@@ -404,7 +486,21 @@ class SemanticSearch:
             and main_entity_overlap
         ):
 
+            match[
+                "accept_reason"
+            ] = (
+                "main match score >= 0.65 "
+                "and entity overlap: "
+                + ", ".join(
+                    sorted(main_entity_overlap)
+                )
+            )
+
             return True
+
+        match[
+            "accept_reason"
+        ] = "no acceptance rule matched"
 
         return False
 
@@ -516,7 +612,9 @@ class SemanticSearch:
                 f"Type: {match['type']}\n"
                 f"Score: {match['score']:.2f}\n"
                 f"Confidence: {match['confidence']}\n"
-                f"Pack: {match['pack']}\n\n"
+                f"Pack: {match['pack']}\n"
+                f"Accepted because: "
+                f"{match.get('accept_reason', 'unknown')}\n\n"
             )
 
         else:
@@ -533,7 +631,9 @@ class SemanticSearch:
                 f"Type: {best_match['type']}\n"
                 f"Score: {best_match['score']:.2f}\n"
                 f"Confidence: {best_match['confidence']}\n"
-                f"Pack: {best_match['pack']}\n\n"
+                f"Pack: {best_match['pack']}\n"
+                f"Rejected because: "
+                f"{best_match.get('accept_reason', 'unknown')}\n\n"
             )
 
         result += "Top Matches:\n"
