@@ -22,7 +22,8 @@ from modules.commands import (
     version,
     about,
     packstats,
-    find_knowledge
+    find_knowledge,
+    find_alias
 )
 
 from modules.core.context_resolver import (
@@ -777,6 +778,18 @@ def handle_command(message):
     if command == "/packstats":
 
         return packstats()
+    
+    if command.startswith(
+        "/findalias"
+    ):
+
+        search_text = message[
+            len("/findalias"):
+        ].strip()
+
+        return find_alias(
+            search_text
+        )
 
     if command.startswith(
         "/find"

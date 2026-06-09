@@ -1,5 +1,7 @@
 import os
 import json
+import pickle
+import hashlib
 
 os.environ["HF_HUB_DISABLE_TELEMETRY"] = "1"
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
@@ -9,14 +11,15 @@ from sentence_transformers import (
     util
 )
 
-
+CACHE_FILE = "data/semantic_cache.pkl"
+MODEL_NAME = "paraphrase-multilingual-MiniLM-L12-v2"
 ALIASES_FILE = "data/aliases.json"
 PACKS_FOLDER = "data/knowledge_packs"
 
 print("Loading ReND semantic model...")
 
 model = SentenceTransformer(
-    "paraphrase-multilingual-MiniLM-L12-v2"
+    MODEL_NAME
 )
 
 print("Semantic model loaded.")
@@ -116,6 +119,74 @@ def find_question_pack(question):
 
     return None
 
+def build_cache_key(questions):
+
+    content = json.dumps(
+        {
+            "model": MODEL_NAME,
+            "questions": questions
+        },
+        ensure_ascii=False,
+        sort_keys=True
+    )
+
+    return hashlib.sha256(
+        content.encode("utf-8")
+    ).hexdigest()
+
+
+def load_embedding_cache(cache_key):
+
+    if not os.path.exists(CACHE_FILE):
+        return None
+
+    try:
+
+        with open(
+            CACHE_FILE,
+            "rb"
+        ) as file:
+
+            cache = pickle.load(file)
+
+        if cache.get("cache_key") == cache_key:
+
+            print("Semantic cache loaded.")
+
+            return cache.get("embeddings")
+
+    except:
+
+        return None
+
+    return None
+
+
+def save_embedding_cache(
+    cache_key,
+    embeddings
+):
+
+    try:
+
+        with open(
+            CACHE_FILE,
+            "wb"
+        ) as file:
+
+            pickle.dump(
+                {
+                    "cache_key": cache_key,
+                    "embeddings": embeddings
+                },
+                file
+            )
+
+        print("Semantic cache saved.")
+
+    except:
+
+        pass
 
 class SemanticSearch:
 
@@ -167,10 +238,34 @@ class SemanticSearch:
 
         if self.questions:
 
-            self.embeddings = model.encode(
-                self.questions,
-                convert_to_tensor=True
+            cache_key = build_cache_key(
+                self.questions
             )
+
+            cached_embeddings = load_embedding_cache(
+                cache_key
+            )
+
+            if cached_embeddings is not None:
+
+                self.embeddings = cached_embeddings
+
+            else:
+
+                print(
+                    f"Generating embeddings for "
+                    f"{len(self.questions)} search items..."
+                )
+
+                self.embeddings = model.encode(
+                    self.questions,
+                    convert_to_tensor=True
+                )
+
+                save_embedding_cache(
+                    cache_key,
+                    self.embeddings
+                )
 
         else:
 

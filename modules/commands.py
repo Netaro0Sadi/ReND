@@ -125,7 +125,8 @@ def help_menu():
         "/version - Show system version\n"
         "/edit - Edit a learned answer\n"
         "/remove - Remove a learned question\n"
-        "/help - Show this help menu"
+        "/help - Show this help menu\n"
+        "/findalias <text> - Search aliases"
     )
 
 
@@ -421,6 +422,73 @@ def find_knowledge(
 
         result += (
             f"...and {len(matches) - limit} more results."
+        )
+
+    return result.strip()
+
+def find_alias(
+    search_text,
+    limit=20
+):
+
+    search_text = (
+        search_text.lower()
+        .strip()
+    )
+
+    if not search_text:
+
+        return "Use: /findalias <text>"
+
+    aliases = load_json(
+        ALIASES_FILE
+    )
+
+    results = []
+
+    for question, alias_list in aliases.items():
+
+        for alias in alias_list:
+
+            if search_text in alias.lower():
+
+                results.append(
+                    (
+                        question,
+                        alias,
+                        find_question_pack(
+                            question
+                        )
+                    )
+                )
+
+    if not results:
+
+        return "No matching aliases found."
+
+    result = (
+        f"Alias Results for: {search_text}\n\n"
+    )
+
+    for index, (
+        question,
+        alias,
+        pack
+    ) in enumerate(
+        results[:limit],
+        start=1
+    ):
+
+        result += (
+            f"{index}. {alias}\n"
+            f"   Main Question: {question}\n"
+            f"   Pack: {pack}\n\n"
+        )
+
+    if len(results) > limit:
+
+        result += (
+            f"...and {len(results) - limit} more results."
         )
 
     return result.strip()
