@@ -19,7 +19,10 @@ from modules.commands import (
     memory_status,
     clear_memory,
     help_menu,
-    version
+    version,
+    about,
+    packstats,
+    find_knowledge
 )
 
 from modules.core.context_resolver import (
@@ -763,6 +766,30 @@ def handle_command(message):
     if command == "/version":
 
         return version()
+    
+    if command == "/about":
+
+        return about(
+            knowledge_base,
+            get_personality()
+        )
+
+    if command == "/packstats":
+
+        return packstats()
+
+    if command.startswith(
+        "/find"
+    ):
+
+        search_text = message[
+            len("/find"):
+        ].strip()
+
+        return find_knowledge(
+            knowledge_base,
+            search_text
+        )
 
     return "Unknown command."
 
