@@ -24,7 +24,9 @@ from modules.commands import (
     packstats,
     find_knowledge,
     find_alias,
-    related
+    related,
+    languages,
+    translate_command
 )
 
 from modules.core.context_resolver import (
@@ -787,6 +789,19 @@ def handle_command(message):
     if command == "/packstats":
 
         return packstats()
+    
+    if command == "/languages":
+
+        return languages()
+
+
+    if command.startswith(
+        "/translate"
+    ):
+
+        return translate_command(
+            message
+        )
     
     if command.startswith(
         "/findalias"

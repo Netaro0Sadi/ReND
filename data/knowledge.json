@@ -874,5 +874,6 @@
     "What is an absolute path in file systems?": "An absolute path is a file path that specifies the complete location of a file or directory from the root element of the file system",
     "What is a relative path in file systems?": "A relative path is a file path that specifies the location of a file or directory relative to the current working directory",
     "What is automated testing?": "Automated testing is the practice of executing software tests automatically using scripted code to verify that the application works as expected",
-    "What does CI/CD stand for?": "CI/CD stands for Continuous Integration and Continuous Deployment, a set of practices that automates the integration, testing, and deployment of code changes"
+    "What does CI/CD stand for?": "CI/CD stands for Continuous Integration and Continuous Deployment, a set of practices that automates the integration, testing, and deployment of code changes",
+    "Where does spongebob lives?": "On a pineple."
 }

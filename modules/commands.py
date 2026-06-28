@@ -2,7 +2,10 @@ import os
 import json
 
 from modules.core.related_knowledge import get_related_questions
-
+from modules.features.translator import (
+    supported_languages,
+    handle_translate_command
+)
 
 PACKS_FOLDER = "data/knowledge_packs"
 ALIASES_FILE = "data/aliases.json"
@@ -125,6 +128,8 @@ def help_menu():
         "/debug - Show debug information\n"
         "/why - Show why ReND chose the last answer\n"
         "/related - Show related knowledge\n"
+        "/translate <source> <target> <text> - Translate text\n"
+        "/languages - Show supported translation languages\n"
         "/version - Show system version\n"
         "/edit - Edit a learned answer\n"
         "/remove - Remove a learned question\n"
@@ -586,3 +591,14 @@ def related(
         )
 
     return result.strip()
+
+def languages():
+
+    return supported_languages()
+
+
+def translate_command(message):
+
+    return handle_translate_command(
+        message
+    )
