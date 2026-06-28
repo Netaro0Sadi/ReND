@@ -1,10 +1,21 @@
-import os
 import json
-import shutil
+import sys
+import os
+
+
+sys.path.append(
+    os.path.abspath(
+        os.path.join(
+            os.path.dirname(__file__),
+            ".."
+        )
+    )
+)
+
+from backup import create_backup
 
 
 PACKS_FOLDER = "data/knowledge_packs"
-BACKUP_FOLDER = "data/knowledge_packs_duplicate_backup"
 
 
 PACK_PRIORITY = [
@@ -15,6 +26,7 @@ PACK_PRIORITY = [
     "history",
     "geography",
     "sports",
+    "fictional_characters",
     "pop_culture",
     "math",
     "general"
@@ -31,6 +43,9 @@ MANUAL_KEEP = {
 
 
 def load_json(path):
+
+    if not os.path.exists(path):
+        return {}
 
     with open(
         path,
@@ -57,29 +72,15 @@ def save_json(path, data):
         )
 
 
-def create_backup():
-
-    if os.path.exists(
-        BACKUP_FOLDER
-    ):
-
-        shutil.rmtree(
-            BACKUP_FOLDER
-        )
-
-    shutil.copytree(
-        PACKS_FOLDER,
-        BACKUP_FOLDER
-    )
-
-    print(
-        "Backup created."
-    )
-
-
 def load_packs():
 
     packs = {}
+
+    if not os.path.exists(
+        PACKS_FOLDER
+    ):
+
+        return packs
 
     for file_name in os.listdir(
         PACKS_FOLDER
@@ -101,7 +102,9 @@ def load_packs():
             file_name
         )
 
-        packs[pack_name] = load_json(
+        packs[
+            pack_name
+        ] = load_json(
             path
         )
 
@@ -147,17 +150,7 @@ def choose_pack(
     return locations[0]
 
 
-def main():
-
-    print()
-    print(
-        "ReND Duplicate Fixer"
-    )
-    print()
-
-    create_backup()
-
-    packs = load_packs()
+def find_duplicate_questions(packs):
 
     question_locations = {}
 
@@ -177,13 +170,59 @@ def main():
                 pack_name
             )
 
+    return {
+        question: locations
+        for question, locations in question_locations.items()
+        if len(locations) > 1
+    }
+
+
+def main():
+
+    print()
+    print(
+        "ReND Duplicate Question Fixer"
+    )
+    print()
+
+    packs = load_packs()
+
+    if not packs:
+
+        print(
+            "No knowledge packs found."
+        )
+
+        return
+
+    duplicates = find_duplicate_questions(
+        packs
+    )
+
+    if not duplicates:
+
+        print(
+            "No duplicate questions found."
+        )
+
+        return
+
+    print(
+        f"Duplicate questions found: "
+        f"{len(duplicates)}"
+    )
+
+    print()
+    print(
+        "Creating backup before changes..."
+    )
+
+    create_backup()
+
     fixed = 0
+    removed = 0
 
-    for question, locations in question_locations.items():
-
-        if len(locations) <= 1:
-
-            continue
+    for question, locations in duplicates.items():
 
         keep_pack = choose_pack(
             question,
@@ -210,6 +249,8 @@ def main():
                     question
                 ]
 
+                removed += 1
+
                 print(
                     f"Removed from: {pack_name}"
                 )
@@ -227,11 +268,23 @@ def main():
     )
 
     print(
-        f"Duplicates fixed: {fixed}"
+        "Duplicate Fix Summary"
     )
 
     print(
-        f"Backup folder: {BACKUP_FOLDER}"
+        "=" * 60
+    )
+
+    print(
+        f"Duplicate groups fixed: {fixed}"
+    )
+
+    print(
+        f"Questions removed: {removed}"
+    )
+
+    print(
+        "Backup: data/backups"
     )
 
     print(

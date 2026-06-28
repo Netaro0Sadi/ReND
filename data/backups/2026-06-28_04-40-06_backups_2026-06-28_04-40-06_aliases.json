@@ -135,6 +135,7 @@
         "Me fale sobre an API."
     ],
     "What is artificial intelligence?": [
+        "What is AI?",
         "Explain artificial intelligence.",
         "Define AI.",
         "O que é inteligência artificial?",
@@ -274,7 +275,10 @@
         "Explique RAM.",
         "Tell me about RAM.",
         "Defina RAM.",
-        "Me fale sobre RAM."
+        "Me fale sobre RAM.",
+        "What does RAM mean?",
+        "What is the meaning of RAM?",
+        "O que significa RAM?"
     ],
     "What is a GPU?": [
         "Explain GPU.",
@@ -823,9 +827,12 @@
     "What is HTTP?": [
         "Explain HTTP.",
         "Define HTTP.",
+        "What does HTTP mean?",
         "O que é HTTP?",
         "Explique HTTP.",
+        "O que significa HTTP?",
         "Tell me about HTTP.",
+        "What is the meaning of HTTP?",
         "Defina HTTP.",
         "Me fale sobre HTTP."
     ],
@@ -2330,7 +2337,10 @@
         "Explique DNS.",
         "Tell me about DNS.",
         "Defina DNS.",
-        "Me fale sobre DNS."
+        "Me fale sobre DNS.",
+        "What does DNS mean?",
+        "What is the meaning of DNS?",
+        "O que significa DNS?"
     ],
     "What is SSD?": [
         "Explain SSD.",
@@ -2339,7 +2349,10 @@
         "Explique SSD.",
         "Tell me about SSD.",
         "Defina SSD.",
-        "Me fale sobre SSD."
+        "Me fale sobre SSD.",
+        "What does SSD mean?",
+        "What is the meaning of SSD?",
+        "O que significa SSD?"
     ],
     "What is HDD?": [
         "Explain HDD.",
@@ -2348,14 +2361,20 @@
         "Explique HDD.",
         "Tell me about HDD.",
         "Defina HDD.",
-        "Me fale sobre HDD."
+        "Me fale sobre HDD.",
+        "What does HDD mean?",
+        "What is the meaning of HDD?",
+        "O que significa HDD?"
     ],
     "What is BIOS?": [
         "Explain BIOS.",
         "Define BIOS.",
+        "What does BIOS mean?",
         "O que é BIOS?",
         "Explique BIOS.",
+        "O que significa BIOS?",
         "Tell me about BIOS.",
+        "What is the meaning of BIOS?",
         "Defina BIOS.",
         "Me fale sobre BIOS."
     ],
@@ -3275,7 +3294,9 @@
         "Explique Harry Potter.",
         "O que significa Harry Potter?",
         "What is the meaning of Harry Potter?",
-        "Defina Harry Potter."
+        "Defina Harry Potter.",
+        "Tell me about Harry Potter.",
+        "Me fale sobre Harry Potter."
     ],
     "Who is Harry Potter?": [
         "Who exactly is Harry Potter?",
@@ -3925,7 +3946,9 @@
         "Explique Scooby-Doo.",
         "O que significa Scooby-Doo?",
         "What is the meaning of Scooby-Doo?",
-        "Defina Scooby-Doo."
+        "Defina Scooby-Doo.",
+        "Tell me about Scooby-Doo.",
+        "Me fale sobre Scooby-Doo."
     ],
     "Who is Scooby-Doo?": [
         "Who exactly is Scooby-Doo?",
@@ -3943,7 +3966,9 @@
         "Explique SpongeBob SquarePants.",
         "O que significa SpongeBob SquarePants?",
         "What is the meaning of SpongeBob SquarePants?",
-        "Defina SpongeBob SquarePants."
+        "Defina SpongeBob SquarePants.",
+        "Tell me about SpongeBob SquarePants.",
+        "Me fale sobre SpongeBob SquarePants."
     ],
     "Who is SpongeBob SquarePants?": [
         "Who exactly is SpongeBob SquarePants?",
@@ -5985,7 +6010,9 @@
         "Quem foi Alan Turing?",
         "Who exactly was Alan Turing?",
         "Who was Alan Turing exactly?",
-        "Explique quem foi Alan Turing."
+        "Explique quem foi Alan Turing.",
+        "Tell me about Alan Turing.",
+        "Me fale sobre Alan Turing."
     ],
     "What does AI stand for?": [
         "What does AI mean?",
@@ -6153,7 +6180,10 @@
         "Explique SQL.",
         "Tell me about SQL.",
         "Defina SQL.",
-        "Me fale sobre SQL."
+        "Me fale sobre SQL.",
+        "What does SQL mean?",
+        "What is the meaning of SQL?",
+        "O que significa SQL?"
     ],
     "What is NoSQL?": [
         "Explain NoSQL.",
@@ -8809,7 +8839,11 @@
         "What is the Olympics?",
         "O que são os Jogos Olímpicos?",
         "Me fale sobre os Jogos Olímpicos.",
-        "O que são the Olympic Games?"
+        "O que são the Olympic Games?",
+        "Explain the Olympic Games.",
+        "Tell me about the Olympic Games.",
+        "Explique the Olympic Games.",
+        "Me fale sobre the Olympic Games."
     ],
     "What is the Tour de France?": [
         "Explain the Tour de France.",
@@ -11142,7 +11176,14 @@
         "Me fale sobre Loki.",
         "Explique quem é Loki."
     ],
-    "Who is the Joker?": [],
+    "Who is the Joker?": [
+        "Tell me about the Joker.",
+        "Who exactly is the Joker?",
+        "Who is the Joker exactly?",
+        "Quem é the Joker?",
+        "Me fale sobre the Joker.",
+        "Explique quem é the Joker."
+    ],
     "Who is Harley Quinn?": [
         "Tell me about Harley Quinn.",
         "Who exactly is Harley Quinn?",

@@ -1,12 +1,24 @@
 import json
 import os
+import sys
+
+
+sys.path.append(
+    os.path.abspath(
+        os.path.join(
+            os.path.dirname(__file__),
+            ".."
+        )
+    )
+)
+
+from backup import create_backup
 
 
 ALIASES_FILE = "data/aliases.json"
 
 
 PREFERRED_QUESTIONS = {
-
     "What is an API?":
         "What does API stand for?",
 
@@ -66,6 +78,14 @@ def save_aliases(data):
         )
 
 
+def normalize_alias(alias):
+
+    return (
+        alias.lower()
+        .strip()
+    )
+
+
 def choose_owner(
     alias,
     questions
@@ -75,19 +95,23 @@ def choose_owner(
 
         if question in PREFERRED_QUESTIONS:
 
+            preferred = PREFERRED_QUESTIONS[
+                question
+            ]
+
+            if preferred in questions:
+
+                return preferred
+
             return question
 
-    shortest = min(
+    return min(
         questions,
         key=len
     )
 
-    return shortest
 
-
-def main():
-
-    aliases = load_aliases()
+def build_alias_map(aliases):
 
     alias_map = {}
 
@@ -95,23 +119,36 @@ def main():
 
         for alias in alias_list:
 
-            key = alias.lower().strip()
+            key = normalize_alias(
+                alias
+            )
 
             if key not in alias_map:
 
-                alias_map[key] = []
+                alias_map[
+                    key
+                ] = []
 
-            alias_map[key].append(
+            alias_map[
+                key
+            ].append(
                 question
             )
 
-    duplicates = []
+    return alias_map
 
-    removed = 0
+
+def find_duplicate_aliases(aliases):
+
+    alias_map = build_alias_map(
+        aliases
+    )
+
+    duplicates = []
 
     for alias, questions in alias_map.items():
 
-        unique_questions = list(
+        unique_questions = sorted(
             set(questions)
         )
 
@@ -132,32 +169,47 @@ def main():
             )
         )
 
-        for question in unique_questions:
+    return duplicates
+
+
+def remove_duplicate_aliases(
+    aliases,
+    duplicates
+):
+
+    removed = 0
+
+    for alias, owner, questions in duplicates:
+
+        for question in questions:
 
             if question == owner:
 
                 continue
 
-        alias_list = aliases.get(
-            question,
-            []
-        )
+            alias_list = aliases.get(
+                question,
+                []
+            )
 
-        for original_alias in alias_list[:]:
+            for original_alias in alias_list[:]:
 
-            if original_alias.lower().strip() == alias:
-
-                aliases[
-                    question
-                ].remove(
+                if normalize_alias(
                     original_alias
-                )
+                ) == alias:
 
-                removed += 1
+                    aliases[
+                        question
+                    ].remove(
+                        original_alias
+                    )
 
-    save_aliases(
-        aliases
-    )
+                    removed += 1
+
+    return removed
+
+
+def main():
 
     print()
     print("=" * 70)
@@ -165,8 +217,52 @@ def main():
     print("=" * 70)
     print()
 
+    aliases = load_aliases()
+
+    if not aliases:
+
+        print(
+            "No aliases found."
+        )
+
+        return
+
+    duplicates = find_duplicate_aliases(
+        aliases
+    )
+
+    if not duplicates:
+
+        print(
+            "No duplicate aliases found."
+        )
+
+        return
+
     print(
-        f"Duplicate groups: "
+        f"Duplicate groups found: "
+        f"{len(duplicates)}"
+    )
+
+    print()
+    print(
+        "Creating backup before changes..."
+    )
+
+    create_backup()
+
+    removed = remove_duplicate_aliases(
+        aliases,
+        duplicates
+    )
+
+    save_aliases(
+        aliases
+    )
+
+    print()
+    print(
+        f"Duplicate groups fixed: "
         f"{len(duplicates)}"
     )
 
