@@ -29,6 +29,75 @@ SUPPORTED_LANGUAGES = {
     "ru": "Russian"
 }
 
+LANGUAGE_ALIASES = {
+    "auto": "auto",
+    "automatico": "auto",
+    "automático": "auto",
+    "detectar": "auto",
+
+    "pt": "pt",
+    "portugues": "pt",
+    "português": "pt",
+    "portuguese": "pt",
+
+    "en": "en",
+    "ingles": "en",
+    "inglês": "en",
+    "english": "en",
+
+    "es": "es",
+    "espanhol": "es",
+    "spanish": "es",
+    "español": "es",
+
+    "fr": "fr",
+    "frances": "fr",
+    "francês": "fr",
+    "french": "fr",
+
+    "de": "de",
+    "alemao": "de",
+    "alemão": "de",
+    "german": "de",
+
+    "it": "it",
+    "italiano": "it",
+    "italian": "it",
+
+    "ja": "ja",
+    "japones": "ja",
+    "japonês": "ja",
+    "japanese": "ja",
+
+    "ko": "ko",
+    "coreano": "ko",
+    "korean": "ko",
+
+    "zh": "zh-cn",
+    "zh-cn": "zh-cn",
+    "chines": "zh-cn",
+    "chinês": "zh-cn",
+    "chinese": "zh-cn",
+
+    "ru": "ru",
+    "russo": "ru",
+    "russian": "ru"
+}
+
+def normalize_language_code(language):
+
+    if not language:
+        return None
+
+    language = (
+        language.lower()
+        .strip()
+    )
+
+    return LANGUAGE_ALIASES.get(
+        language,
+        language
+    )
 
 def detect_language(text):
 
@@ -105,8 +174,13 @@ def translate_text(
     if not text:
         return text
 
-    source_language = source_language.lower().strip()
-    target_language = target_language.lower().strip()
+    source_language = normalize_language_code(
+        source_language
+    )
+
+    target_language = normalize_language_code(
+        target_language
+    )
 
     if source_language == target_language:
         return text
@@ -203,8 +277,13 @@ def handle_translate_command(message):
             "/translate auto es Eu gosto de programar"
         )
 
-    source_language = parts[1]
-    target_language = parts[2]
+    source_language = normalize_language_code(
+        parts[1]
+    )
+
+    target_language = normalize_language_code(
+        parts[2]
+    )
     text = parts[3]
 
     translated = translate_text(
